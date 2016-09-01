@@ -11,3 +11,19 @@
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
+
+.down-box {
+  background: #B6985A;
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  margin-left: -25px;
+  transform: rotate(45deg);
+}
+
+.down-arrow {
+  transform: rotate(-45deg);
+  padding: 10px;
+}
