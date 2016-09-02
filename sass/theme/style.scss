@@ -1,3 +1,45 @@
+/* -------------------------- 
+
+        #About the File
+
+   -------------------------- */
+
+/* 
+
+        Author:                     Toby T. Castro, @tobytcastro
+        Tools:                      Sublime Text 2, SASS
+        Approaches:                 OOCSS, BEM
+*/
+
+/* ---------------------------
+
+        #Imports & Variables
+
+   --------------------------- */
+
+/* Color Variables */
+      /* Backgrounds */
+      $colorBGbanner: #383634;
+      $colorBGdark: #1A1A1A;
+      $colorBGblack: #000000;
+
+      /* Accent Color */
+      $colorAccent: #B6985A;
+
+      /* Text */
+      $colorWhite: #FFFFFF;
+      $colorBlack: #000000;
+      $colorTextSubtle: #E5E5E5;
+
+      /* Other */
+      $selection: #957A41;
+
+/* -----------------------------
+
+        #Base
+
+   ---------------------------- */
+
 @import "vendor/normalize";
 @import "modules/mixins";
 @import "vendor/grids";
@@ -12,6 +54,23 @@
   text-rendering: optimizeLegibility;
 }
 
+::selection {
+  background: $selection;
+  color: $colorWhite;
+}
+
+::-moz-selection {
+  background: $selection;
+  color: $colorWhite;
+}
+
+img {
+  width: 100%;
+}
+
+$headerText: "Quattrocento", Georgia, Times New Roman, serif;
+$headerBody: "Fanwood Text", Times New Roman, Georgia, serif;
+
 .down-box {
   background: #B6985A;
   position: absolute;
@@ -20,10 +79,18 @@
   height: 40px;
   left: 50%;
   margin-left: -25px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .down-arrow {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
   padding: 10px;
 }

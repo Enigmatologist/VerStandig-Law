@@ -1,4 +1,30 @@
 @charset "UTF-8";
+/* -------------------------- 
+
+        #About the File
+
+   -------------------------- */
+/* 
+
+        Author:                     Toby T. Castro, @tobytcastro
+        Tools:                      Sublime Text 2, SASS
+        Approaches:                 OOCSS, BEM
+*/
+/* ---------------------------
+
+        #Imports & Variables
+
+   --------------------------- */
+/* Color Variables */
+/* Backgrounds */
+/* Accent Color */
+/* Text */
+/* Other */
+/* -----------------------------
+
+        #Base
+
+   ---------------------------- */
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -1947,6 +1973,17 @@ textarea {
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility; }
 
+::selection {
+  background: #957A41;
+  color: #FFFFFF; }
+
+::-moz-selection {
+  background: #957A41;
+  color: #FFFFFF; }
+
+img {
+  width: 100%; }
+
 .down-box {
   background: #B6985A;
   position: absolute;
@@ -1955,9 +1992,17 @@ textarea {
   height: 40px;
   left: 50%;
   margin-left: -25px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
   transform: rotate(45deg); }
 
 .down-arrow {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
   padding: 10px; }
 
