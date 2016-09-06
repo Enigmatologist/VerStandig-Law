@@ -1,0 +1,29 @@
+/* ------------------------- *\
+
+    # Homepage #
+
+\* ------------------------- */
+
+.down-box {
+  background: #B6985A;
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  margin-left: -25px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.down-arrow {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  padding: 10px;
+}

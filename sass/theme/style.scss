@@ -40,10 +40,6 @@
 
    ---------------------------- */
 
-@import "vendor/normalize";
-@import "modules/mixins";
-@import "vendor/grids";
-
 * {
   -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -71,26 +67,19 @@ img {
 $headerText: "Quattrocento", Georgia, Times New Roman, serif;
 $headerBody: "Fanwood Text", Times New Roman, Georgia, serif;
 
-.down-box {
-  background: #B6985A;
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 40px;
-  left: 50%;
-  margin-left: -25px;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
+$baseFontSize: 16px;
+$unit: 30px;
 
-.down-arrow {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  padding: 10px;
-}
+/* Breakpoints */
+
+$one: 830px;
+$two: 1000px;
+$three: 1500px;
+
+
+@import "vendor/normalize";
+@import "modules/mixins";
+@import "vendor/grids";
+
+@import "partials/typography";
+@import "partials/main";

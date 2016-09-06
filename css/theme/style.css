@@ -25,6 +25,27 @@
         #Base
 
    ---------------------------- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility; }
+
+::selection {
+  background: #957A41;
+  color: #FFFFFF; }
+
+::-moz-selection {
+  background: #957A41;
+  color: #FFFFFF; }
+
+img {
+  width: 100%; }
+
+/* Breakpoints */
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -1964,26 +1985,16 @@ textarea {
 /**
  * Pull classes, to move grid items back to the left by certain amounts.
  */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility; }
+/* ---------------------------- *\
 
-::selection {
-  background: #957A41;
-  color: #FFFFFF; }
+    # Typography #
 
-::-moz-selection {
-  background: #957A41;
-  color: #FFFFFF; }
+\* ---------------------------- */
+/* ------------------------- *\
 
-img {
-  width: 100%; }
+    # Homepage #
 
+\* ------------------------- */
 .down-box {
   background: #B6985A;
   position: absolute;
