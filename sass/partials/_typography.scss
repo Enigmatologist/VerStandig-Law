@@ -4,3 +4,67 @@
 
 \* ---------------------------- */
 
+body, 
+html {
+  font-family: $bodyText;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: $headerText;
+}
+
+h1, h5, h6, a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $colorWhite;
+}
+
+h2, h3, h4 {
+  font-weight: 400;
+}
+
+.company-name {
+  font-size: em(23px);
+  text-transform: none;
+  letter-spacing: 0.36px
+}
+
+.nav-button {
+  letter-spacing: 0.08px;
+  opacity: 0.8;
+}
+
+.motto {
+  font-size: em(37px);
+  letter-spacing: 3.08px;
+  line-height: 60px;
+  margin-bottom: 0px;
+}
+
+.description {
+  font-weight: 400;
+  font-style: italic;
+  font-size: em(17px);
+  letter-spacing: 0.07px;
+  line-height: 25px;
+  color: #E5E5E5;
+}
+
+.contact-text {
+  text-transform: uppercase;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $colorWhite;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+}
+
+
+
+
+
+
+
+
+
+

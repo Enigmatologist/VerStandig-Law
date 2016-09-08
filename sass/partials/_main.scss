@@ -4,6 +4,59 @@
 
 \* ------------------------- */
 
+section {
+  padding: 70px 0;
+}
+
+header {
+  padding: 0px 20px $unit;
+  max-width: 1140px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  padding: 35px 0 20px;
+  background-color: #373634;
+}
+
+.container {
+  margin: 0 20px;
+  max-width: 1000px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.site-logo, 
+.company-name {
+  display: block;
+}
+
+.for-real {
+  width: 35px;
+}
+
+.company-name {
+  padding: 10px;
+}
+
+.nav {
+  text-align: center;
+  padding: 8px 0;
+}
+
+.nav-button {
+  padding: 0 10px;
+}
+
+.contact-text {
+  padding: 80px 0px 4px;
+}
+
 .down-box {
   background: #B6985A;
   position: absolute;

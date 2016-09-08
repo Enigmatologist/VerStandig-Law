@@ -1990,11 +1990,98 @@ textarea {
     # Typography #
 
 \* ---------------------------- */
+body,
+html {
+  font-family: "Fanwood Text", Times New Roman, Georgia, serif; }
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: "Quattrocento", Georgia, Times New Roman, serif; }
+
+h1, h5, h6, a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+
+h2, h3, h4 {
+  font-weight: 400; }
+
+.company-name {
+  font-size: 1.4375em;
+  text-transform: none;
+  letter-spacing: 0.36px; }
+
+.nav-button {
+  letter-spacing: 0.08px;
+  opacity: 0.8; }
+
+.motto {
+  font-size: 2.3125em;
+  letter-spacing: 3.08px;
+  line-height: 60px;
+  margin-bottom: 0px; }
+
+.description {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.0625em;
+  letter-spacing: 0.07px;
+  line-height: 25px;
+  color: #E5E5E5; }
+
+.contact-text {
+  text-transform: uppercase;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 700;
+  letter-spacing: 0.7px; }
+
 /* ------------------------- *\
 
     # Homepage #
 
 \* ------------------------- */
+section {
+  padding: 70px 0; }
+
+header {
+  padding: 0px 20px 30px;
+  max-width: 1140px; }
+
+a {
+  text-decoration: none; }
+
+.hero {
+  padding: 35px 0 20px;
+  background-color: #373634; }
+
+.container {
+  margin: 0 20px;
+  max-width: 1000px; }
+
+.logo {
+  text-align: center; }
+
+.site-logo,
+.company-name {
+  display: block; }
+
+.for-real {
+  width: 35px; }
+
+.company-name {
+  padding: 10px; }
+
+.nav {
+  text-align: center;
+  padding: 8px 0; }
+
+.nav-button {
+  padding: 0 10px; }
+
+.contact-text {
+  padding: 80px 0px 4px; }
+
 .down-box {
   background: #B6985A;
   position: absolute;
