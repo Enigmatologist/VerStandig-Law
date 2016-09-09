@@ -2053,7 +2053,8 @@ a {
 
 .hero {
   padding: 35px 0 20px;
-  background-color: #373634; }
+  background: #373634 url("../../images/hero.jpg");
+  background-size: cover; }
 
 .container {
   margin: 0 20px;
