@@ -23,7 +23,7 @@ a {
   background-size: cover;
 }
 
-.container {
+.container1 {
   margin: 0 20px;
   max-width: 1000px;
 }
@@ -81,3 +81,59 @@ a {
   transform: rotate(-45deg);
   padding: 10px;
 }
+
+.specialty-box {
+  width: 100%;
+}
+
+#diamond-1 {
+  background: #000000 url("../../images/criminal-1x-block.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.diamond {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 175px;
+  height: 175px;
+  margin-left: 50px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+
+  &:after {
+    content: "";
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin-left: -121px;
+    margin-top: -150px;
+    background: inherit;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+}
+
+.content {
+    text-align: center;
+    margin: 60px -5px 0px -5px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+
+
