@@ -59,6 +59,12 @@ h2, h3, h4 {
   letter-spacing: 0.7px;
 }
 
+.title {
+  font-size: em(32px);
+  letter-spacing: 0.13px;
+  text-align: center;
+}
+
 .content{
   text-transform: uppercase;
   font-size: em(15px);

@@ -2036,6 +2036,11 @@ h2, h3, h4 {
   font-weight: 700;
   letter-spacing: 0.7px; }
 
+.title {
+  font-size: 2em;
+  letter-spacing: 0.13px;
+  text-align: center; }
+
 .content {
   text-transform: uppercase;
   font-size: 0.9375em; }
@@ -2055,6 +2060,12 @@ header {
 a {
   text-decoration: none; }
 
+hr {
+  border: 0;
+  border-bottom: 3px solid #000000;
+  border-radius: 999px;
+  margin: -10px auto 77px; }
+
 .hero {
   padding: 35px 0 20px;
   background: #373634 url("../../images/hero.jpg");
@@ -2063,6 +2074,10 @@ a {
 .container1 {
   margin: 0 20px;
   max-width: 1000px; }
+
+.container2 {
+  margin: 0 20px;
+  max-width: 872px; }
 
 .logo {
   text-align: center; }
@@ -2093,7 +2108,7 @@ a {
   display: block;
   width: 40px;
   height: 40px;
-  left: 50%;
+  left: 51.5%;
   margin-left: -25px;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -2109,11 +2124,14 @@ a {
   transform: rotate(-45deg);
   padding: 10px; }
 
+.heading-line {
+  width: 65px; }
+
 .specialty-box {
   width: 100%; }
 
 #diamond-1 {
-  background: #000000 url("../../images/criminal-1x-block.jpg");
+  background: #000000 url("../../images/criminal-1x-small.jpg");
   background-size: cover;
   background-position: center center; }
 
@@ -2121,9 +2139,9 @@ a {
   display: block;
   position: relative;
   overflow: hidden;
-  width: 175px;
-  height: 175px;
-  margin-left: 50px;
+  width: 125px;
+  height: 125px;
+  margin: 0 auto;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -2131,11 +2149,11 @@ a {
   transform: rotate(45deg); }
   .diamond:after {
     content: "";
-    width: 300px;
-    height: 300px;
+    width: 210px;
+    height: 210px;
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 80%;
+    left: 60%;
     margin-left: -121px;
     margin-top: -150px;
     background: inherit;
