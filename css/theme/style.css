@@ -2131,29 +2131,24 @@ hr {
   width: 100%; }
 
 #diamond-1 {
-  background: #000000 url("../../images/criminal-1x-small.jpg");
-  background-size: cover;
-  /* background-position: center center; */ }
+  background: #000000 url("../../images/criminal-1x-small.jpg"); }
 
 #diamond-2 {
   background: #000000 url("../../images/litigation-1x-small.jpg");
-  background-size: cover;
-  /* background-position: center center; */ }
+  background-size: cover; }
 
 #diamond-3 {
-  background: #000000 url("../../images/gaming-1x-small.jpg");
-  background-size: cover;
-  /* background-position: center center; */ }
+  background: #000000 url("../../images/gaming-1x-small.jpg"); }
 
 #diamond-4 {
-  background: #000000 url("../../images/divorce-1x-small.jpg");
-  background-size: cover;
-  /* background-position: center center; */ }
+  background: #000000 url("../../images/divorce-1x-small.jpg"); }
 
 #diamond-5 {
-  background: #000000 url("../../images/business-1x-small.jpg");
+  background: #000000 url("../../images/business-1x-small.jpg"); }
+
+#diamond-1, #diamond-3, #diamond-4, #diamond-5 {
   background-size: cover;
-  /* background-position: center center; */ }
+  background-position: center center; }
 
 .diamond {
   display: block;
