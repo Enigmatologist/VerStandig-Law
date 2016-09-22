@@ -2064,7 +2064,7 @@ hr {
   border: 0;
   border-bottom: 3px solid #000000;
   border-radius: 999px;
-  margin: -10px auto 77px; }
+  margin: -10px auto 46px; }
 
 .hero {
   padding: 35px 0 20px;
@@ -2133,7 +2133,12 @@ hr {
 #diamond-1 {
   background: #000000 url("../../images/criminal-1x-small.jpg");
   background-size: cover;
-  background-position: center center; }
+  /* background-position: center center; */ }
+
+#diamond-2 {
+  background: #000000 url("../../images/litigation-1x-small.jpg");
+  background-size: cover;
+  /* background-position: center center; */ }
 
 .diamond {
   display: block;
@@ -2141,7 +2146,7 @@ hr {
   overflow: hidden;
   width: 125px;
   height: 125px;
-  margin: 0 auto;
+  margin: 30px auto;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -2154,7 +2159,7 @@ hr {
     position: absolute;
     top: 80%;
     left: 60%;
-    margin-left: -121px;
+    margin-left: -111px;
     margin-top: -150px;
     background: inherit;
     -webkit-transform: rotate(-45deg);
