@@ -36,8 +36,13 @@ hr {
 }
 
 .container2 {
-  margin: 0 20px;
-  max-width: 872px;
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+.container3 {
+  margin: 0 auto;
+  max-width: 855px;
 }
 
 .logo {
@@ -92,6 +97,10 @@ hr {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
   padding: 10px;
+}
+
+.expertise {
+  padding-bottom: 40px;
 }
 
 .heading-line {
@@ -169,6 +178,10 @@ hr {
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
+}
+
+.trusted-by {
+  padding-top: 0px;
 }
 
 
