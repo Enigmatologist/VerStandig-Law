@@ -2222,4 +2222,7 @@ position: relative; */
   -o-transform: rotate(-45deg);
   transform: rotate -45deg; }
 
+.testimonials {
+  background-color: #1A1A1A; }
+
 /*# sourceMappingURL=style.css.map */

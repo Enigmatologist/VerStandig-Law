@@ -76,7 +76,7 @@ hr {
 }
 
 .down-box {
-  background: #B6985A;
+  background: $colorAccent;
   position: absolute;
   display: block;
   width: 40px;
@@ -111,7 +111,7 @@ hr {
 .specialty-diamond {
    /* display: block; 
   position: relative; */
-  background-color: #B6985A;
+  background-color: $colorAccent;
   overflow: hidden;
   width: 125px;
   height: 125px;
@@ -211,6 +211,8 @@ hr {
   transform: rotate (-45deg); 
 }
 
-
+.testimonials {
+  background-color: $colorBGdark;
+}
 
 
