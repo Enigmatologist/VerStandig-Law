@@ -2046,8 +2046,8 @@ h2, h3, h4 {
 .content {
   text-transform: uppercase;
   font-size: 1em;
-  letter-spacing: 0.06px;
-  line-height: 18px; }
+  letter-spacing: 0.07px;
+  line-height: 20px; }
 
 .white {
   color: #FFFFFF; }
@@ -2061,7 +2061,7 @@ h2, h3, h4 {
   letter-spacing: 1.87px;
   margin-bottom: 16px; }
 .testimonial .comment {
-  font-size: 1.1875em;
+  font-size: 1.25em;
   letter-spacing: 0.15px;
   line-height: 25px; }
 
@@ -2200,19 +2200,18 @@ position: relative; */
   transform: rotate -45deg; }
 
 .c-position1 {
-  left: -1%;
-  top: 6%; }
+  top: 2%; }
 
 .c-position2, .c-position3 {
   left: 1%;
-  top: 16%; }
+  top: 13%; }
 
 .c-position4 {
-  left: -1%;
-  top: 6%; }
+  left: 1%;
+  top: 4%; }
 
 .c-position5 {
-  top: 6%;
+  top: 3%;
   left: -1%; }
 
 .photo {
