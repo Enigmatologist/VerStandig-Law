@@ -2053,17 +2053,17 @@ h2, h3, h4 {
   color: #FFFFFF; }
 
 .testimonial .occupation {
-  font-size: 1.0625em;
-  opacity: 0.69;
+  font-size: 1.125em;
+  opacity: 0.70;
   letter-spacing: 1.07px; }
 .testimonial .client-name {
-  font-size: 1.125em;
-  letter-spacing: 1.87px;
+  font-size: 1.25em;
+  letter-spacing: 2.09px;
   margin-bottom: 16px; }
 .testimonial .comment {
   font-size: 1.25em;
-  letter-spacing: 0.15px;
-  line-height: 25px; }
+  letter-spacing: 0.08px;
+  line-height: 30px; }
 
 /* ------------------------- *\
 
