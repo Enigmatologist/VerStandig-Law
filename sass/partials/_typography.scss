@@ -13,6 +13,8 @@ h1, h2, h3, h4, h5, h6, a {
   font-family: $headerText;
 }
 
+
+
 h1, h5, h6, a {
   font-weight: 700;
   text-transform: uppercase;
@@ -32,6 +34,7 @@ h2, h3, h4 {
 .nav-button {
   letter-spacing: 0.08px;
   opacity: 0.8;
+  font-size: em(16px);
 }
 
 .motto {
@@ -51,6 +54,7 @@ h2, h3, h4 {
 }
 
 .contact-text {
+  font-size: em(15px);
   text-transform: uppercase;
   letter-spacing: 0.08px;
   text-align: center;
@@ -67,8 +71,38 @@ h2, h3, h4 {
 
 .content{
   text-transform: uppercase;
-  font-size: em(15px);
+  font-size: em(16px);
+  letter-spacing: 0.06px;
+  line-height: 18px;
 }
+
+.white {
+  color: $colorWhite;
+}
+
+.testimonial {
+  
+  .occupation {
+  font-size: em(17px);
+  opacity: 0.69;
+  letter-spacing: 1.07px;
+  }
+
+  .client-name {
+  font-size: em(18px);
+  letter-spacing: 1.87px;
+  margin-bottom: 16px;
+  }
+ 
+   .comment {
+  font-size: em(19px);
+  letter-spacing: 0.15px;
+  line-height: 25px;
+  }
+}
+
+
+
 
 
 

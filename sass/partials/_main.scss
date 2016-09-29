@@ -5,7 +5,7 @@
 \* ------------------------- */
 
 section {
-  padding: 70px 0;
+  padding: 45px 0 70px 0;
 }
 
 header {
@@ -20,7 +20,6 @@ a {
 hr {
   border: 0;
   border-bottom: 3px solid #000000;
-  border-radius: 999px;
   margin: -10px auto 46px;
 }
 
@@ -99,13 +98,8 @@ hr {
   padding: 10px;
 }
 
-.expertise {
-  padding-bottom: 40px;
-}
-
 .heading-line {
   width: 65px;
-
 }
 
 .specialty-diamond {
@@ -185,10 +179,6 @@ hr {
   left: -1%;
 }
 
-.testimonials {
-  padding-top: 0px;
-}
-
 .photo {
   /* display: block; 
   position: relative; */
@@ -215,4 +205,12 @@ hr {
   background-color: $colorBGdark;
 }
 
+.light {
+  border-bottom: 3px solid #FFFFFF;
+}
 
+.heading-line-2 {
+  border: 1px solid #FFFFFF;
+  width: 50px;
+  margin: 0;
+}

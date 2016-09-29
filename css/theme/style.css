@@ -2012,7 +2012,8 @@ h2, h3, h4 {
 
 .nav-button {
   letter-spacing: 0.08px;
-  opacity: 0.8; }
+  opacity: 0.8;
+  font-size: 1em; }
 
 .motto {
   font-size: 2.3125em;
@@ -2029,6 +2030,7 @@ h2, h3, h4 {
   color: #E5E5E5; }
 
 .contact-text {
+  font-size: 0.9375em;
   text-transform: uppercase;
   letter-spacing: 0.08px;
   text-align: center;
@@ -2043,7 +2045,25 @@ h2, h3, h4 {
 
 .content {
   text-transform: uppercase;
-  font-size: 0.9375em; }
+  font-size: 1em;
+  letter-spacing: 0.06px;
+  line-height: 18px; }
+
+.white {
+  color: #FFFFFF; }
+
+.testimonial .occupation {
+  font-size: 1.0625em;
+  opacity: 0.69;
+  letter-spacing: 1.07px; }
+.testimonial .client-name {
+  font-size: 1.125em;
+  letter-spacing: 1.87px;
+  margin-bottom: 16px; }
+.testimonial .comment {
+  font-size: 1.1875em;
+  letter-spacing: 0.15px;
+  line-height: 25px; }
 
 /* ------------------------- *\
 
@@ -2051,7 +2071,7 @@ h2, h3, h4 {
 
 \* ------------------------- */
 section {
-  padding: 70px 0; }
+  padding: 45px 0 70px 0; }
 
 header {
   padding: 0px 20px 30px;
@@ -2063,7 +2083,6 @@ a {
 hr {
   border: 0;
   border-bottom: 3px solid #000000;
-  border-radius: 999px;
   margin: -10px auto 46px; }
 
 .hero {
@@ -2127,9 +2146,6 @@ hr {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
   padding: 10px; }
-
-.expertise {
-  padding-bottom: 40px; }
 
 .heading-line {
   width: 65px; }
@@ -2199,9 +2215,6 @@ position: relative; */
   top: 6%;
   left: -1%; }
 
-.testimonials {
-  padding-top: 0px; }
-
 .photo {
   /* display: block; 
   position: relative; */
@@ -2224,5 +2237,13 @@ position: relative; */
 
 .testimonials {
   background-color: #1A1A1A; }
+
+.light {
+  border-bottom: 3px solid #FFFFFF; }
+
+.heading-line-2 {
+  border: 1px solid #FFFFFF;
+  width: 50px;
+  margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
