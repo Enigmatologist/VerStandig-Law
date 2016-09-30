@@ -2016,7 +2016,7 @@ h2, h3, h4 {
   font-size: 1em; }
 
 .motto {
-  font-size: 2.3125em;
+  font-size: 2.5625em;
   letter-spacing: 3.08px;
   line-height: 60px;
   margin-bottom: 0px; }
@@ -2024,7 +2024,7 @@ h2, h3, h4 {
 .description {
   font-weight: 400;
   font-style: italic;
-  font-size: 1.0625em;
+  font-size: 1.125em;
   letter-spacing: 0.07px;
   line-height: 25px;
   color: #E5E5E5; }
@@ -2239,6 +2239,9 @@ position: relative; */
 
 .light {
   border-bottom: 3px solid #FFFFFF; }
+
+.testimonial {
+  padding: 0 20px; }
 
 .heading-line-2 {
   border: 1px solid #FFFFFF;
