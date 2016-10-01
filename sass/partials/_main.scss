@@ -209,9 +209,16 @@ hr {
 }
 
 .testimonial {
-  padding: 0 30px;
-  margin: 0 6%;
-  border: red solid 1px;
+  padding: 1px 30px;
+  margin: 5px 6% 25px;
+}
+
+.outlined {
+  border:$colorAccent solid 2px; 
+}
+
+.filled {
+  background-color: $colorAccent;
 }
 
 .heading-line-2 {
