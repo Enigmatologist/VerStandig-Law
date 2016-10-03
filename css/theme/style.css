@@ -2062,10 +2062,22 @@ h2, h3, h4 {
   letter-spacing: 2.09px;
   margin-top: 2px;
   margin-bottom: 16px; }
+.testimonial .heading-line-2 {
+  margin-top: 15px; }
 .testimonial .comment {
   font-size: 1.25em;
   letter-spacing: 0.08px;
-  line-height: 30px; }
+  line-height: 30px;
+  margin-bottom: -10px; }
+
+.phrase {
+  font-family: "Quattrocento", Georgia, Times New Roman, serif;
+  /* Now that you’ve foun: */
+  font-size: 1.5em;
+  letter-spacing: 0.04px;
+  line-height: 44px;
+  margin: 0px 6%;
+  text-align: center; }
 
 /* ------------------------- *\
 
@@ -2256,5 +2268,8 @@ position: relative; */
   border: 1px solid #FFFFFF;
   width: 50px;
   margin: 0; }
+
+.goodbye {
+  padding: 55px 0px; }
 
 /*# sourceMappingURL=style.css.map */
