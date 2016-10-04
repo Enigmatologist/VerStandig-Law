@@ -2079,6 +2079,17 @@ h2, h3, h4 {
   margin: 0px 6%;
   text-align: center; }
 
+.contact-block {
+  font-size: 1.25em;
+  color: #FFFFFF;
+  letter-spacing: 0.08px;
+  line-height: 26px;
+  margin-top: 25px;
+  padding: 0 50px; }
+
+.capitalize {
+  font-weight: 400; }
+
 /* ------------------------- *\
 
     # Homepage #
@@ -2110,7 +2121,7 @@ hr {
 
 .container2 {
   margin: 0 auto;
-  max-width: 750px; }
+  max-width: 810px; }
 
 .container3 {
   margin: 0 auto;
@@ -2274,12 +2285,37 @@ position: relative; */
 
 .contact {
   background: #1A1A1A url("../../images/contact-1x.jpg");
-  background-size: cover; }
+  background-size: cover;
+  background-position: center;
+  padding: 70px 0px 0px; }
+
+.contact-content {
+  text-align: center;
+  padding-bottom: 43px; }
 
 .home-icon, .email-icon {
   width: 40px; }
 
 .phone-icon {
   width: 35px; }
+
+/* Bounce In */
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s; }
+
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36); }
 
 /*# sourceMappingURL=style.css.map */
