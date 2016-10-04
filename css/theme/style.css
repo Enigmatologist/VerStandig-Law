@@ -2101,7 +2101,7 @@ hr {
 
 .hero {
   padding: 35px 0 20px;
-  background: #373634 url("../../images/hero.jpg");
+  background: #373634 url("../../images/hero-1x.jpg");
   background-size: cover; }
 
 .container1 {
@@ -2271,5 +2271,15 @@ position: relative; */
 
 .goodbye {
   padding: 55px 0px; }
+
+.contact {
+  background: #1A1A1A url("../../images/contact-1x.jpg");
+  background-size: cover; }
+
+.home-icon, .email-icon {
+  width: 40px; }
+
+.phone-icon {
+  width: 35px; }
 
 /*# sourceMappingURL=style.css.map */
