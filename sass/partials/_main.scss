@@ -23,7 +23,7 @@ hr {
   margin: -10px auto 46px;
 }
 
-.hero {
+#hero {
   padding: 35px 0 20px;
   background: #373634 url("../../images/hero-1x.jpg");
   background-size: cover;
@@ -80,8 +80,8 @@ hr {
   display: block;
   width: 40px;
   height: 40px;
-  left: 51.5%;
-  margin-left: -25px;
+  left: 50%;
+  margin-left: -20px;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -231,7 +231,7 @@ hr {
   padding: 55px 0px;
 }
 
-.contact {
+#contact {
   background: $colorBGdark url("../../images/contact-1x.jpg");
   background-size: cover;
   background-position: center;
@@ -271,7 +271,18 @@ hr {
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
+.raise {
+  margin-top: -20px;
+}
 
+.up-arrow {
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  padding: 10px;
+}
 
 
 
