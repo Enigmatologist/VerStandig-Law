@@ -2329,4 +2329,22 @@ position: relative; */
   transform: rotate(135deg);
   padding: 10px; }
 
+.main-footer {
+  background-color: #000000; }
+
+.social-icons {
+  padding: 70px 0; }
+
+.social {
+  margin: 0 auto;
+  list-style: none;
+  text-align: center; }
+  .social .icon {
+    display: inline;
+    margin-right: 40px; }
+    .social .icon .twitter-icon {
+      width: 21px; }
+    .social .icon .linkedin-icon {
+      width: 20px; }
+
 /*# sourceMappingURL=style.css.map */

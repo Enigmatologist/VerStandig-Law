@@ -284,10 +284,32 @@ hr {
   padding: 10px;
 }
 
+.main-footer {
+  background-color: $colorBGblack;
+}
 
+.social-icons {
+  padding: 70px 0;
+}
 
+.social {
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
 
+  .icon {
+    display: inline;
+    margin-right: 40px;
 
+    .twitter-icon {
+      width: 21px;
+    }
+
+    .linkedin-icon {
+      width: 20px;
+    }
+  }
+}
 
 
 
