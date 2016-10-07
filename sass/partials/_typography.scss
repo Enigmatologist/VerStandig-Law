@@ -35,6 +35,10 @@ h2, h3, h4 {
   letter-spacing: 0.08px;
   opacity: 0.8;
   font-size: em(16px);
+
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .motto {

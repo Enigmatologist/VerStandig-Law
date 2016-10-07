@@ -2014,6 +2014,8 @@ h2, h3, h4 {
   letter-spacing: 0.08px;
   opacity: 0.8;
   font-size: 1em; }
+  .nav-button:hover {
+    opacity: 1; }
 
 .motto {
   font-size: 2.5625em;
