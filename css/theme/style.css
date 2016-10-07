@@ -2011,9 +2011,9 @@ h2, h3, h4 {
   letter-spacing: 0.36px; }
 
 .nav-button {
-  letter-spacing: 0.08px;
+  letter-spacing: 0.25px;
   opacity: 0.8;
-  font-size: 1em; }
+  font-size: 0.9375em; }
   .nav-button:hover {
     opacity: 1; }
 
