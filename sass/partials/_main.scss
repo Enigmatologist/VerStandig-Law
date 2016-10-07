@@ -205,7 +205,7 @@ hr {
 }
 
 .light {
-  border-bottom: 3px solid #FFFFFF;
+  border-bottom: 3px solid $colorWhite;
 }
 
 .testimonial {
@@ -222,7 +222,7 @@ hr {
 }
 
 .heading-line-2 {
-  border: 1px solid #FFFFFF;
+  border: 1px solid $colorWhite;
   width: 50px;
   margin: 0;
 }
@@ -286,10 +286,11 @@ hr {
 
 .main-footer {
   background-color: $colorBGblack;
+  padding: 70px 0 60px 0;
 }
 
 .social-icons {
-  padding: 70px 0;
+  padding-bottom: 50px;  
 }
 
 .social {
@@ -298,18 +299,55 @@ hr {
   text-align: center;
 
   .icon {
-    display: inline;
+    display: inline-block;
     margin-right: 40px;
+    border: 1px solid $colorWhite;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 11px 0 0 1px;
 
-    .twitter-icon {
-      width: 21px;
-    }
-
-    .linkedin-icon {
-      width: 20px;
+    .twitter-icon, .linkedin-icon {
+      width: 15px;
     }
   }
 }
+
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.copyright-align {
+  vertical-align: 10%;
+}
+
+.protection {
+  margin: 0;
+  text-align: center;
+
+  .protection-block {
+    display: inline-block;
+    margin-right: 30px;
+  }
+}
+
+
 
 
 
