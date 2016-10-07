@@ -2213,9 +2213,16 @@ position: relative; */
   -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
-  transform: rotate -45deg; }
+  transform: rotate -45deg;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: opacity 400ms ease-in-out;
+  -moz-transition: opacity 400ms ease-in-out;
+  -ms-transition: opacity 400ms ease-in-out;
+  -o-transition: opacity 400ms ease-in-out;
+  transition: opacity 400ms ease-in-out; }
   .img-rotation:hover {
-    opacity: 0; }
+    opacity: 0.2; }
 
 .content {
   color: white;
