@@ -39,6 +39,10 @@ h2, h3, h4 {
   &:hover {
     opacity: 1;
   }
+
+  @include at-query ($one) {
+    font-size: em(16px);
+  }
 }
 
 .motto {
@@ -46,6 +50,16 @@ h2, h3, h4 {
   letter-spacing: 3.08px;
   line-height: 60px;
   margin-bottom: 0px;
+
+  @include at-query ($one) {
+    padding: 0 40px 0 0;
+  }
+
+  @include at-query ($two) {
+    font-size: em(52px);
+    letter-spacing: 4.34px;
+    line-height: 70px;
+  }
 }
 
 .description {
@@ -55,22 +69,38 @@ h2, h3, h4 {
   letter-spacing: 0.07px;
   line-height: 25px;
   color: #E5E5E5;
+  
+  @include at-query ($one) {
+    padding: 0 50px 0 0;
+  }
+
+  @include at-query ($two) {
+    padding: 0 200px 0 0;
+  }
 }
 
 .contact-text {
   font-size: em(15px);
   text-transform: uppercase;
-  letter-spacing: 0.08px;
   text-align: center;
   color: $colorWhite;
   font-weight: 700;
   letter-spacing: 0.7px;
+
+  @include at-query ($two) {
+    font-size: em(16px);
+  }
 }
 
 .title {
   font-size: em(32px);
   letter-spacing: 0.13px;
   text-align: center;
+
+  @include at-query($two) {
+    font-size: em(36px);
+    letter-spacing: 0.18px;
+  }
 }
 
 .content{

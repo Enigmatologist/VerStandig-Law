@@ -680,7 +680,7 @@ textarea {
 /**
  * Our responsive classes, if we have enabled them.
  */
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width: 600px) {
   /**
    * Whole
    */
@@ -779,7 +779,7 @@ textarea {
 
   .zero--eleven-twelfths {
     width: 91.666%; } }
-@media only screen and (min-width: 705px) {
+@media only screen and (min-width: 700px) {
   /**
    * Whole
    */
@@ -1385,7 +1385,7 @@ textarea {
 .push--eleven-twelfths {
   left: 91.666%; }
 
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width: 600px) {
   /**
    * Whole
    */
@@ -1484,7 +1484,7 @@ textarea {
 
   .push--zero--eleven-twelfths {
     left: 91.666%; } }
-@media only screen and (min-width: 705px) {
+@media only screen and (min-width: 700px) {
   /**
    * Whole
    */
@@ -2016,12 +2016,23 @@ h2, h3, h4 {
   font-size: 0.9375em; }
   .nav-button:hover {
     opacity: 1; }
+  @media screen and (min-width: 412px) {
+    .nav-button {
+      font-size: 1em; } }
 
 .motto {
   font-size: 2.5625em;
   letter-spacing: 3.08px;
   line-height: 60px;
   margin-bottom: 0px; }
+  @media screen and (min-width: 412px) {
+    .motto {
+      padding: 0 40px 0 0; } }
+  @media screen and (min-width: 600px) {
+    .motto {
+      font-size: 3.25em;
+      letter-spacing: 4.34px;
+      line-height: 70px; } }
 
 .description {
   font-weight: 400;
@@ -2030,20 +2041,32 @@ h2, h3, h4 {
   letter-spacing: 0.07px;
   line-height: 25px;
   color: #E5E5E5; }
+  @media screen and (min-width: 412px) {
+    .description {
+      padding: 0 50px 0 0; } }
+  @media screen and (min-width: 600px) {
+    .description {
+      padding: 0 200px 0 0; } }
 
 .contact-text {
   font-size: 0.9375em;
   text-transform: uppercase;
-  letter-spacing: 0.08px;
   text-align: center;
   color: #FFFFFF;
   font-weight: 700;
   letter-spacing: 0.7px; }
+  @media screen and (min-width: 600px) {
+    .contact-text {
+      font-size: 1em; } }
 
 .title {
   font-size: 2em;
   letter-spacing: 0.13px;
   text-align: center; }
+  @media screen and (min-width: 600px) {
+    .title {
+      font-size: 2.25em;
+      letter-spacing: 0.18px; } }
 
 .content {
   text-transform: uppercase;
@@ -2108,7 +2131,8 @@ section {
 
 header {
   padding: 0px 20px 30px;
-  max-width: 1140px; }
+  max-width: 1140px;
+  margin: 0 auto; }
 
 a {
   text-decoration: none; }
@@ -2124,7 +2148,8 @@ hr {
   background-size: cover; }
 
 .container1 {
-  margin: 0 20px;
+  margin: 0 auto;
+  padding: 0 20px;
   max-width: 1000px; }
 
 .container2 {
@@ -2137,20 +2162,34 @@ hr {
 
 .logo {
   text-align: center; }
+  @media screen and (min-width: 700px) {
+    .logo {
+      text-align: left; } }
 
 .site-logo,
 .company-name {
   display: block; }
+  @media screen and (min-width: 700px) {
+    .site-logo,
+    .company-name {
+      display: inline-block; } }
 
 .for-real {
   width: 35px; }
 
 .company-name {
   padding: 10px; }
+  @media screen and (min-width: 700px) {
+    .company-name {
+      margin-top: -5px;
+      position: absolute; } }
 
 .nav {
   text-align: center;
   padding: 8px 0; }
+  @media screen and (min-width: 700px) {
+    .nav {
+      text-align: right; } }
 
 .nav-button {
   padding: 0 10px; }

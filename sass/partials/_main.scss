@@ -11,6 +11,7 @@ section {
 header {
   padding: 0px 20px $unit;
   max-width: 1140px;
+  margin: 0 auto;
 }
 
 a {
@@ -30,7 +31,8 @@ hr {
 }
 
 .container1 {
-  margin: 0 20px;
+  margin: 0 auto;
+  padding: 0 20px;
   max-width: 1000px;
 }
 
@@ -46,11 +48,19 @@ hr {
 
 .logo {
   text-align: center;
+
+  @include at-query ($three) {
+    text-align: left;
+  }
 }
 
 .site-logo, 
 .company-name {
   display: block;
+
+  @include at-query ($three) {
+    display: inline-block;
+  }
 }
 
 .for-real {
@@ -59,11 +69,20 @@ hr {
 
 .company-name {
   padding: 10px;
+
+  @include at-query ($three) {
+    margin-top: -5px;
+    position: absolute;
+  }
 }
 
 .nav {
   text-align: center;
   padding: 8px 0;
+
+  @include at-query ($three) {
+    text-align: right;
+  }
 }
 
 .nav-button {
