@@ -36,6 +36,14 @@ hr {
   max-width: 1000px;
 }
 
+.special-container {
+  margin: 0 auto;
+
+  @include at-query($two) {
+    max-width: 600px;
+  }
+}
+
 .container2 {
   margin: 0 auto;
   max-width: 810px;
@@ -134,6 +142,36 @@ hr {
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+.location1 {
+  @include at-query($two) {
+    margin-left: 147px;
+  }
+}
+
+.location2 {
+  @include at-query($two) {
+    margin-left: 12px;
+  }
+}
+
+.location3, .location4, .location5 {
+  @include at-query($two) {
+    margin-top: -64px;
+  }
+}
+
+.location3 {
+  @include at-query($two) {
+    margin-left: 57px;
+  }
+}
+
+.location5 {
+  @include at-query($two) {
+    margin-left: -2px;
+  }
 }
 
 .img-position1 {

@@ -2152,6 +2152,12 @@ hr {
   padding: 0 20px;
   max-width: 1000px; }
 
+.special-container {
+  margin: 0 auto; }
+  @media screen and (min-width: 600px) {
+    .special-container {
+      max-width: 600px; } }
+
 .container2 {
   margin: 0 auto;
   max-width: 810px; }
@@ -2235,6 +2241,26 @@ position: relative; */
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg); }
+
+@media screen and (min-width: 600px) {
+  .location1 {
+    margin-left: 147px; } }
+
+@media screen and (min-width: 600px) {
+  .location2 {
+    margin-left: 12px; } }
+
+@media screen and (min-width: 600px) {
+  .location3, .location4, .location5 {
+    margin-top: -64px; } }
+
+@media screen and (min-width: 600px) {
+  .location3 {
+    margin-left: 57px; } }
+
+@media screen and (min-width: 600px) {
+  .location5 {
+    margin-left: -2px; } }
 
 .img-position1 {
   width: 215%;
