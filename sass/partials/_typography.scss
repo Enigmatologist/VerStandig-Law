@@ -28,7 +28,15 @@ h2, h3, h4 {
 .company-name {
   font-size: em(23px);
   text-transform: none;
-  letter-spacing: 0.36px
+  letter-spacing: 0.36px;
+
+  @include at-query($three) {
+    font-size: em(21px);
+  }
+
+  @include at-query($four) {
+    font-size: em(23px);
+  }
 }
 
 .nav-button {
@@ -43,6 +51,10 @@ h2, h3, h4 {
   @include at-query ($one) {
     font-size: em(16px);
   }
+
+  @include at-query ($three) {
+    font-size: em(17px);
+  }
 }
 
 .motto {
@@ -50,15 +62,25 @@ h2, h3, h4 {
   letter-spacing: 3.08px;
   line-height: 60px;
   margin-bottom: 0px;
+  max-width: 710px;
 
   @include at-query ($one) {
-    padding: 0 40px 0 0;
+    padding: 0 60px 0 0;
   }
 
   @include at-query ($two) {
     font-size: em(52px);
     letter-spacing: 4.34px;
     line-height: 70px;
+    padding: 0px 60px 0px 30px;
+  }
+
+  @include at-query ($three) {
+    padding: 30px 0px 0px 45px;
+  }
+
+  @include at-query ($four) {
+    padding: 30px 0px 0px 65px;
   }
 }
 
@@ -69,13 +91,20 @@ h2, h3, h4 {
   letter-spacing: 0.07px;
   line-height: 25px;
   color: #E5E5E5;
+  max-width: 460px;
   
-  @include at-query ($one) {
-    padding: 0 50px 0 0;
+  @include at-query ($two) {
+    padding-left: 30px;
   }
 
-  @include at-query ($two) {
-    padding: 0 200px 0 0;
+  @include at-query ($three) {
+    font-size: em(20px);
+    letter-spacing: 0.09px;
+    padding: 0 0 0 45px;
+  }
+
+  @include at-query ($four) {
+    padding: 0px 0px 0px 65px;
   }
 }
 

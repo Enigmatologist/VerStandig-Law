@@ -28,12 +28,28 @@ hr {
   padding: 35px 0 20px;
   background: #373634 url("../../images/hero-1x.jpg");
   background-size: cover;
+  min-height: 619px;
+
+  @include at-query(696px) {
+    background: #373634 url("../../images/hero-1x-700.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  @include at-query(740px) {
+    background-position: 0% 0%;
+  }
+
+  @include at-query ($four) {
+    background: #373634 url("../../images/hero-1x.jpg");
+    background-size: cover;
+  }
 }
 
 .container1 {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: 1000px;
+  max-width: 1130px;
 }
 
 .special-container {
@@ -59,6 +75,7 @@ hr {
 
   @include at-query ($three) {
     text-align: left;
+    padding-top: 2px;
   }
 }
 
@@ -73,6 +90,14 @@ hr {
 
 .for-real {
   width: 35px;
+
+  @include at-query($three) {
+    width: 33px;
+  }
+
+  @include at-query($four) {
+    width: 35px;
+  }
 }
 
 .company-name {
@@ -98,7 +123,7 @@ hr {
 }
 
 .contact-text {
-  padding: 80px 0px 4px;
+  padding: 69px 0px 4px;
 }
 
 .down-box {
