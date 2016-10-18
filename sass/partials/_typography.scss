@@ -137,6 +137,11 @@ h2, h3, h4 {
   font-size: em(16px);
   letter-spacing: 0.07px;
   line-height: 20px;
+
+  @include at-query(696px) {
+    font-size: em(18px);
+    letter-spacing: 0.09px;
+  }
 }
 
 .white {
@@ -187,7 +192,7 @@ h2, h3, h4 {
   letter-spacing: 0.08px;
   line-height: 26px;
   margin-top: 25px;
-  padding: 0 50px;
+  padding: 0 40px;
 }
 
 .capitalize {

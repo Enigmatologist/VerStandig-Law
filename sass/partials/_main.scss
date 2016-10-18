@@ -150,8 +150,20 @@ hr {
   padding: 10px;
 }
 
+#expertise {
+  @include at-query(696px) {
+    padding: 45px 0 73px 0;
+  }
+}
+
 .heading-line {
   width: 65px;
+}
+
+.specialty_content {
+  @include at-query(696px) {
+    padding-top: 8px;
+  }
 }
 
 .specialty-diamond {
@@ -167,11 +179,20 @@ hr {
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+
+  @include at-query(696px) {
+    width: 155px;
+    height: 155px;
+  }
 }
 
 .location1 {
   @include at-query($two) {
     margin-left: 147px;
+  }
+
+  @include at-query(696px) {
+    margin-left: 111px;
   }
 }
 
@@ -179,11 +200,19 @@ hr {
   @include at-query($two) {
     margin-left: 12px;
   }
+
+  @include at-query(696px) {
+    margin-left: 18px;
+  }
 }
 
 .location3, .location4, .location5 {
   @include at-query($two) {
     margin-top: -64px;
+  }
+
+  @include at-query(696px) {
+    margin-top: -72px;
   }
 }
 
@@ -191,17 +220,29 @@ hr {
   @include at-query($two) {
     margin-left: 57px;
   }
+
+  @include at-query(696px) {
+    margin-left: 0px;
+  }
 }
 
 .location5 {
   @include at-query($two) {
     margin-left: -2px;
   }
+
+  @include at-query(696px) {
+    margin-left: 25px;
+  }
 }
 
 .img-position1 {
   width: 215%;
   margin: -30px 0px 0px -72px;
+
+  @include at-query(696px) {
+    margin: -50px 0px 0px -92px;
+  }
 }
 
 .img-position2 {
@@ -209,10 +250,13 @@ hr {
   margin: -75px 0px 0px -43px;
 }
 
-.img-position1, .img-position3,
-.img-position4, .img-position5 {
+.img-position3, .img-position4, .img-position5 {
   width: 225%;
   margin: -40px 0px 0px -72px;
+
+  @include at-query(696px) {
+    margin: -54px 0px 0px -90px;
+  }
 }
 
 .img-rotation {
@@ -250,21 +294,40 @@ hr {
 
 .c-position1 {
   top: 2%;
+
+  @include at-query(696px) {
+    top: 11%;
+    left: 1%;
+  }
 }
 
 .c-position2, .c-position3 {
   left: 1%;
   top: 13%;
+
+  @include at-query(696px) {
+    top: 16%;
+  }
 }
 
 .c-position4 {
   left: 1%;
   top: 4%;
+
+  @include at-query(696px) {
+    left: 0%;
+    top: 10%;
+  }
 }
 
 .c-position5 {
   top: 3%;
   left: -1%;
+
+  @include at-query(696px) {
+    top: 10%;
+    left: 0%;
+  }
 }
 
 .photo {
@@ -291,6 +354,7 @@ hr {
 
 .testimonials {
   background-color: $colorBGdark;
+  padding: 45px 0 45px 0;
 }
 
 .light {
