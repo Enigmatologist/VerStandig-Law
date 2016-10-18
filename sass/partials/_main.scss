@@ -336,7 +336,7 @@ hr {
   overflow: hidden;
   width: 60px;
   height: 60px;
-  margin: 30px auto;
+  margin: 30px auto 0px;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -362,22 +362,72 @@ hr {
 }
 
 .testimonial {
-  padding: 1px 30px;
-  margin: 5px 6% 25px;
+  padding: 25px 30px 30px 30px;
+  margin: 5px 20px 25px;
 }
 
-.outlined {
-  border:$colorAccent solid 2px; 
+.box1, .box3 {
+  border: $colorAccent solid 2px;
+
+  @include at-query($three) {
+    margin: 5px 0px 20px 25px;
+  }
 }
 
-.filled {
+.box3 {
+  @include at-query($three) { /* Change box color layout for iPad and beyond */
+    border: medium none;
+    background-color: $colorAccent;
+    border: $colorAccent solid 2px; /* Fix box sizing */
+  }
+}
+
+.box2, .box4 {
   background-color: $colorAccent;
+
+  @include at-query($three) {
+    margin: 5px 20px 20px 0px;
+    border: $colorAccent solid 2px; /* Fix box sizing for box2 */
+  }
+}
+
+.box4 {
+  @include at-query($three) { /* Change box color layout for iPad and beyond */
+    background-color: transparent;
+    border: $colorAccent solid 2px;
+  }
+}
+
+.whitebc {
+  border-color: $colorWhite;
+}
+
+.darkbc {
+  border-color: $colorBlack;
+}
+
+.mobile-whitebc {
+  border-color: $colorWhite;
+
+  @include at-query($three) {
+    border-color: $colorBlack;
+  }
+}
+
+.mobile-darkbc {
+  border-color: $colorBlack;
+
+  @include at-query($three) {
+    border-color: $colorWhite;
+  }
 }
 
 .heading-line-2 {
-  border: 1px solid $colorWhite;
+  border-width: 1px;
+  border-style: solid;
   width: 50px;
   margin: 0;
+  opacity: 0.7;
 }
 
 .goodbye {
@@ -439,7 +489,7 @@ hr {
 
 .main-footer {
   background-color: $colorBGblack;
-  padding: 70px 0 60px 0;
+  padding: 70px 0 30px 0;
 }
 
 .social-icons {

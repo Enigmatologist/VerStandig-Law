@@ -148,19 +148,41 @@ h2, h3, h4 {
   color: $colorWhite;
 }
 
+.dark {
+  color: $colorBlack;
+}
+
+.mobile-white {
+  color: $colorWhite;
+
+  @include at-query($three) {
+    color: $colorBlack;
+  }
+}
+
+.mobile-dark {
+  color: $colorBlack;
+
+  @include at-query($three) {
+    color: $colorWhite;
+  }
+}
+
 .testimonial {
   
   .occupation {
   font-size: em(18px);
   opacity: 0.70;
   letter-spacing: 1.07px;
-  margin: 25px 0 0 0;
+  margin-top: 0px;
+  margin-bottom: 2px;
   }
 
   .client-name {
   font-size: em(20px);
+  font-weight: 400;
   letter-spacing: 2.09px;
-  margin-top: 2px; 
+  margin-top: 0px; 
   margin-bottom: 16px;
   }
 
@@ -170,7 +192,7 @@ h2, h3, h4 {
  
    .comment {
   font-size: em(20px);
-  letter-spacing: 0.08px;
+  letter-spacing: 0.08px; 
   line-height: 30px;
   margin-bottom: -10px;
   }
