@@ -2100,6 +2100,9 @@ h2, h3, h4 {
     .content {
       font-size: 1.125em;
       letter-spacing: 0.09px; } }
+  @media screen and (min-width: 900px) {
+    .content {
+      font-size: 1.25em; } }
 
 .white {
   color: #FFFFFF; }
@@ -2317,6 +2320,10 @@ position: relative; */
     .specialty-diamond {
       width: 155px;
       height: 155px; } }
+  @media screen and (min-width: 900px) {
+    .specialty-diamond {
+      width: 175px;
+      height: 175px; } }
 
 @media screen and (min-width: 600px) {
   .location1 {
@@ -2324,6 +2331,9 @@ position: relative; */
 @media screen and (min-width: 696px) {
   .location1 {
     margin-left: 111px; } }
+@media screen and (min-width: 900px) {
+  .location1 {
+    margin-left: 86px; } }
 
 @media screen and (min-width: 600px) {
   .location2 {
@@ -2331,6 +2341,9 @@ position: relative; */
 @media screen and (min-width: 696px) {
   .location2 {
     margin-left: 18px; } }
+@media screen and (min-width: 900px) {
+  .location2 {
+    margin-left: 23px; } }
 
 @media screen and (min-width: 600px) {
   .location3, .location4, .location5 {
@@ -2338,6 +2351,9 @@ position: relative; */
 @media screen and (min-width: 696px) {
   .location3, .location4, .location5 {
     margin-top: -72px; } }
+@media screen and (min-width: 900px) {
+  .location3, .location4, .location5 {
+    margin-top: -80px; } }
 
 @media screen and (min-width: 600px) {
   .location3 {
@@ -2345,6 +2361,9 @@ position: relative; */
 @media screen and (min-width: 696px) {
   .location3 {
     margin-left: 0px; } }
+@media screen and (min-width: 900px) {
+  .location3 {
+    margin-left: -40px; } }
 
 @media screen and (min-width: 600px) {
   .location5 {
@@ -2352,17 +2371,27 @@ position: relative; */
 @media screen and (min-width: 696px) {
   .location5 {
     margin-left: 25px; } }
+@media screen and (min-width: 900px) {
+  .location5 {
+    margin-left: 44px; } }
 
 .img-position1 {
   width: 215%;
   margin: -30px 0px 0px -72px; }
   @media screen and (min-width: 696px) {
     .img-position1 {
+      margin: -50px 0px 0px -86px; } }
+  @media screen and (min-width: 900px) {
+    .img-position1 {
       margin: -50px 0px 0px -92px; } }
 
 .img-position2 {
   width: 215%;
   margin: -75px 0px 0px -43px; }
+  @media screen and (min-width: 900px) {
+    .img-position2 {
+      width: 220%;
+      margin: -92px 0px 0px -43px; } }
 
 .img-position3, .img-position4, .img-position5 {
   width: 225%;
@@ -2370,6 +2399,10 @@ position: relative; */
   @media screen and (min-width: 696px) {
     .img-position3, .img-position4, .img-position5 {
       margin: -54px 0px 0px -90px; } }
+  @media screen and (min-width: 900px) {
+    .img-position3, .img-position4, .img-position5 {
+      width: 235%;
+      margin: -59px 0px 0px -112px; } }
 
 .img-rotation {
   -webkit-transform: rotate(-45deg);
@@ -2406,6 +2439,10 @@ position: relative; */
     .c-position1 {
       top: 11%;
       left: 1%; } }
+  @media screen and (min-width: 900px) {
+    .c-position1 {
+      top: 12%;
+      left: 1%; } }
 
 .c-position2, .c-position3 {
   left: 1%;
@@ -2413,6 +2450,10 @@ position: relative; */
   @media screen and (min-width: 696px) {
     .c-position2, .c-position3 {
       top: 16%; } }
+  @media screen and (min-width: 900px) {
+    .c-position2, .c-position3 {
+      left: 2%;
+      top: 17%; } }
 
 .c-position4 {
   left: 1%;
@@ -2421,6 +2462,10 @@ position: relative; */
     .c-position4 {
       left: 0%;
       top: 10%; } }
+  @media screen and (min-width: 900px) {
+    .c-position4 {
+      left: 1%;
+      top: 11%; } }
 
 .c-position5 {
   top: 3%;
@@ -2486,6 +2531,15 @@ position: relative; */
 .testimonial {
   padding: 25px 30px 30px 30px;
   margin: 5px 20px 25px; }
+  @media screen and (min-width: 412px) {
+    .testimonial {
+      margin: 5px 35px 25px; } }
+  @media screen and (min-width: 470px) {
+    .testimonial {
+      margin: 5px 45px 25px; } }
+  @media screen and (min-width: 700px) {
+    .testimonial {
+      margin: 5px 20px 25px; } }
 
 .box1, .box3 {
   border: #B6985A solid 2px; }

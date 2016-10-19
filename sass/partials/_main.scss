@@ -184,6 +184,11 @@ hr {
     width: 155px;
     height: 155px;
   }
+
+  @include at-query(900px) {
+    width: 175px;
+    height: 175px;
+  }
 }
 
 .location1 {
@@ -193,6 +198,10 @@ hr {
 
   @include at-query(696px) {
     margin-left: 111px;
+  }
+
+  @include at-query(900px) {
+    margin-left: 86px;
   }
 }
 
@@ -204,6 +213,10 @@ hr {
   @include at-query(696px) {
     margin-left: 18px;
   }
+
+  @include at-query(900px) {
+    margin-left: 23px;
+  }
 }
 
 .location3, .location4, .location5 {
@@ -213,6 +226,10 @@ hr {
 
   @include at-query(696px) {
     margin-top: -72px;
+  }
+
+  @include at-query(900px) {
+    margin-top: -80px;
   }
 }
 
@@ -224,6 +241,10 @@ hr {
   @include at-query(696px) {
     margin-left: 0px;
   }
+
+  @include at-query(900px) {
+    margin-left: -40px;
+  }
 }
 
 .location5 {
@@ -234,6 +255,10 @@ hr {
   @include at-query(696px) {
     margin-left: 25px;
   }
+
+  @include at-query(900px) {
+    margin-left: 44px;
+  }
 }
 
 .img-position1 {
@@ -241,6 +266,10 @@ hr {
   margin: -30px 0px 0px -72px;
 
   @include at-query(696px) {
+    margin: -50px 0px 0px -86px;
+  }
+
+  @include at-query(900px) {
     margin: -50px 0px 0px -92px;
   }
 }
@@ -248,6 +277,11 @@ hr {
 .img-position2 {
   width: 215%;
   margin: -75px 0px 0px -43px;
+
+  @include at-query(900px) {
+    width: 220%;
+    margin: -92px 0px 0px -43px;
+  }
 }
 
 .img-position3, .img-position4, .img-position5 {
@@ -256,6 +290,11 @@ hr {
 
   @include at-query(696px) {
     margin: -54px 0px 0px -90px;
+  }
+
+  @include at-query(900px) {
+    width: 235%;
+    margin: -59px 0px 0px -112px;
   }
 }
 
@@ -299,6 +338,11 @@ hr {
     top: 11%;
     left: 1%;
   }
+
+  @include at-query(900px) {
+    top: 12%;
+    left: 1%;
+  }
 }
 
 .c-position2, .c-position3 {
@@ -307,6 +351,11 @@ hr {
 
   @include at-query(696px) {
     top: 16%;
+  }
+
+  @include at-query(900px) {
+    left: 2%;
+    top: 17%;
   }
 }
 
@@ -317,6 +366,11 @@ hr {
   @include at-query(696px) {
     left: 0%;
     top: 10%;
+  }
+
+  @include at-query(900px) {
+    left: 1%;
+    top: 11%;
   }
 }
 
@@ -400,6 +454,18 @@ hr {
 .testimonial {
   padding: 25px 30px 30px 30px;
   margin: 5px 20px 25px;
+
+  @include at-query(412px) {
+    margin: 5px 35px 25px;
+  }
+
+  @include at-query(470px) {
+    margin: 5px 45px 25px;
+  }
+
+  @include at-query($three) {
+    margin: 5px 20px 25px;
+  }
 }
 
 .box1, .box3 {

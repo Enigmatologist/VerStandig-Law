@@ -142,6 +142,10 @@ h2, h3, h4 {
     font-size: em(18px);
     letter-spacing: 0.09px;
   }
+
+  @include at-query(900px) {
+    font-size: em(20px);
+  }
 }
 
 .white {
