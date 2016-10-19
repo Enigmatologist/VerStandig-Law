@@ -2442,6 +2442,29 @@ position: relative; */
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg); }
+  @media screen and (min-width: 900px) {
+    .photo {
+      position: absolute; } }
+
+@media screen and (min-width: 900px) {
+  .uno {
+    margin-left: 324px;
+    margin-top: 1px; } }
+
+@media screen and (min-width: 900px) {
+  .dos {
+    margin-top: 2px;
+    margin-left: -62px; } }
+
+@media screen and (min-width: 900px) {
+  .tres {
+    margin-top: -283px;
+    margin-left: 325px; } }
+
+@media screen and (min-width: 900px) {
+  .cuatro {
+    margin-top: -282px;
+    margin-left: -61px; } }
 
 .client-face {
   -webkit-transform: rotate(-45deg);
@@ -2453,6 +2476,9 @@ position: relative; */
 .testimonials {
   background-color: #1A1A1A;
   padding: 45px 0 45px 0; }
+  @media screen and (min-width: 900px) {
+    .testimonials {
+      padding: 45px 0px 88px 0px; } }
 
 .light {
   border-bottom: 3px solid #FFFFFF; }
@@ -2467,6 +2493,11 @@ position: relative; */
     .box1, .box3 {
       margin: 5px 0px 20px 25px; } }
 
+@media screen and (min-width: 900px) {
+  .box1 {
+    position: relative;
+    right: -14px; } }
+
 @media screen and (min-width: 700px) {
   .box3 {
     /* Change box color layout for iPad and beyond */
@@ -2474,6 +2505,12 @@ position: relative; */
     background-color: #B6985A;
     border: #B6985A solid 2px;
     /* Fix box sizing */ } }
+@media screen and (min-width: 900px) {
+  .box3 {
+    /* Move box for desktop view */
+    position: relative;
+    right: 20px;
+    top: 6px; } }
 
 .box2, .box4 {
   background-color: #B6985A; }
@@ -2483,11 +2520,23 @@ position: relative; */
       border: #B6985A solid 2px;
       /* Fix box sizing for box2 */ } }
 
+@media screen and (min-width: 900px) {
+  .box2 {
+    position: relative;
+    top: 30px;
+    right: -16px; } }
+
 @media screen and (min-width: 700px) {
   .box4 {
     /* Change box color layout for iPad and beyond */
     background-color: transparent;
     border: #B6985A solid 2px; } }
+@media screen and (min-width: 900px) {
+  .box4 {
+    /* Move box for desktop view */
+    position: relative;
+    right: 18px;
+    top: 36px; } }
 
 .whitebc {
   border-color: #FFFFFF; }

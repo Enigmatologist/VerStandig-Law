@@ -342,6 +342,38 @@ hr {
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+
+  @include at-query(900px) {
+    position: absolute;
+  }
+}
+
+.uno {
+  @include at-query(900px) {
+    margin-left: 324px;
+    margin-top: 1px;
+  }
+}
+
+.dos {
+  @include at-query(900px) {
+    margin-top: 2px;
+    margin-left: -62px;
+  }
+}
+
+.tres {
+  @include at-query(900px) {
+    margin-top: -283px;
+    margin-left: 325px;
+  }
+}
+
+.cuatro {
+  @include at-query(900px) {
+    margin-top: -282px;
+    margin-left: -61px;
+  }
 }
 
 .client-face {
@@ -355,6 +387,10 @@ hr {
 .testimonials {
   background-color: $colorBGdark;
   padding: 45px 0 45px 0;
+
+  @include at-query(900px) {
+    padding: 45px 0px 88px 0px;
+  } 
 }
 
 .light {
@@ -374,12 +410,25 @@ hr {
   }
 }
 
+.box1 {
+  @include at-query(900px) {
+    position: relative;
+    right: -14px;
+  }
+}
+
 .box3 {
   @include at-query($three) { /* Change box color layout for iPad and beyond */
     border: medium none;
     background-color: $colorAccent;
     border: $colorAccent solid 2px; /* Fix box sizing */
   }
+
+  @include at-query(900px) { /* Move box for desktop view */ 
+    position: relative;
+    right: 20px;
+    top: 6px;
+  } 
 }
 
 .box2, .box4 {
@@ -391,11 +440,25 @@ hr {
   }
 }
 
+.box2 {
+  @include at-query(900px) {
+    position: relative;
+    top: 30px;
+    right: -16px;
+  }
+} 
+
 .box4 {
   @include at-query($three) { /* Change box color layout for iPad and beyond */
     background-color: transparent;
     border: $colorAccent solid 2px;
   }
+
+  @include at-query(900px) { /* Move box for desktop view */ 
+    position: relative;
+    right: 18px;
+    top: 36px;
+  } 
 }
 
 .whitebc {
