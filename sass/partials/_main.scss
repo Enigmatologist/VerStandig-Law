@@ -121,8 +121,12 @@ hr {
   text-align: center;
   padding: 8px 0;
 
-  @include at-query ($three) {
+  @include at-query($three) {
     text-align: right;
+  }
+
+  @include at-query($four) {
+    padding: 10px 0;
   }
 }
 

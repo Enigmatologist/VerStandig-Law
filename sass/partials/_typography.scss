@@ -41,11 +41,10 @@ h2, h3, h4 {
 
 .nav-button {
   letter-spacing: 0.25px;
-  opacity: 0.8;
   font-size: em(15px);
 
   &:hover {
-    opacity: 1;
+    opacity: 0.9;
   }
 
   @include at-query ($one) {
@@ -54,6 +53,10 @@ h2, h3, h4 {
 
   @include at-query ($three) {
     font-size: em(17px);
+  }
+
+  @include at-query (750px) {
+    font-size: em(18px);
   }
 }
 

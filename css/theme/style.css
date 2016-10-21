@@ -2018,16 +2018,18 @@ h2, h3, h4 {
 
 .nav-button {
   letter-spacing: 0.25px;
-  opacity: 0.8;
   font-size: 0.9375em; }
   .nav-button:hover {
-    opacity: 1; }
+    opacity: 0.9; }
   @media screen and (min-width: 412px) {
     .nav-button {
       font-size: 1em; } }
   @media screen and (min-width: 700px) {
     .nav-button {
       font-size: 1.0625em; } }
+  @media screen and (min-width: 750px) {
+    .nav-button {
+      font-size: 1.125em; } }
 
 .motto {
   font-size: 2.5625em;
@@ -2269,6 +2271,9 @@ hr {
   @media screen and (min-width: 700px) {
     .nav {
       text-align: right; } }
+  @media screen and (min-width: 1000px) {
+    .nav {
+      padding: 10px 0; } }
 
 .nav-button {
   padding: 0 10px; }
