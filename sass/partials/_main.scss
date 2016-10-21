@@ -62,12 +62,20 @@ hr {
 
 .container2 {
   margin: 0 auto;
-  max-width: 810px;
+  max-width: 415px;
+
+  @include at-query($two) {
+    max-width: 810px
+  }
 }
 
 .container3 {
   margin: 0 auto;
-  max-width: 855px;
+  max-width: 415px;
+  
+  @include at-query($two) {
+    max-width: 855px
+  }
 }
 
 .logo {
@@ -665,8 +673,13 @@ hr {
   transform: scale(1.1);
 }
 
-.copyright-align {
-  vertical-align: 10%;
+.copyright {
+  max-width: 415px;
+  margin: 0 auto;
+
+  @include at-query($three) {
+    max-width: 700px;
+  }
 }
 
 .protection {
@@ -676,6 +689,10 @@ hr {
   .protection-block {
     display: inline-block;
     margin-right: 30px;
+
+    .copyright-align {
+      vertical-align: 10%;
+    }
   }
 }
 

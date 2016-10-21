@@ -2220,11 +2220,17 @@ hr {
 
 .container2 {
   margin: 0 auto;
-  max-width: 810px; }
+  max-width: 415px; }
+  @media screen and (min-width: 600px) {
+    .container2 {
+      max-width: 810px; } }
 
 .container3 {
   margin: 0 auto;
-  max-width: 855px; }
+  max-width: 415px; }
+  @media screen and (min-width: 600px) {
+    .container3 {
+      max-width: 855px; } }
 
 .logo {
   text-align: center; }
@@ -2707,8 +2713,12 @@ position: relative; */
   -webkit-transform: scale(1.1);
   transform: scale(1.1); }
 
-.copyright-align {
-  vertical-align: 10%; }
+.copyright {
+  max-width: 415px;
+  margin: 0 auto; }
+  @media screen and (min-width: 700px) {
+    .copyright {
+      max-width: 700px; } }
 
 .protection {
   margin: 0;
@@ -2716,5 +2726,7 @@ position: relative; */
   .protection .protection-block {
     display: inline-block;
     margin-right: 30px; }
+    .protection .protection-block .copyright-align {
+      vertical-align: 10%; }
 
 /*# sourceMappingURL=style.css.map */
