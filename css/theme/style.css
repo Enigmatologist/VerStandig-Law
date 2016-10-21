@@ -2208,10 +2208,11 @@ hr {
   @media screen and (min-width: 740px) {
     #hero {
       background-position: 0% 0%; } }
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1200px) {
     #hero {
-      background: #373634 url("../../images/hero-1x.jpg");
-      background-size: cover; } }
+      background: #373634 url("../../images/hero-1x-test2.jpg");
+      background-size: cover;
+      background-position: 30% 85%; } }
 
 .container1 {
   margin: 0 auto;

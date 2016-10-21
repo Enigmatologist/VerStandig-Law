@@ -40,9 +40,10 @@ hr {
     background-position: 0% 0%;
   }
 
-  @include at-query ($four) {
-    background: #373634 url("../../images/hero-1x.jpg");
+  @include at-query (1200px) {
+    background: #373634 url("../../images/hero-1x-test2.jpg");
     background-size: cover;
+    background-position: 30% 85%;
   }
 }
 
