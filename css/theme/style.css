@@ -2018,15 +2018,19 @@ h2, h3, h4 {
 
 .nav-button {
   letter-spacing: 0.25px;
+  opacity: 0.8;
   font-size: 0.9375em; }
   .nav-button:hover {
-    opacity: 0.9; }
+    opacity: 1; }
   @media screen and (min-width: 412px) {
     .nav-button {
       font-size: 1em; } }
   @media screen and (min-width: 700px) {
     .nav-button {
-      font-size: 1.0625em; } }
+      font-size: 1.0625em;
+      opacity: 1; }
+      .nav-button:hover {
+        opacity: 0.85; } }
   @media screen and (min-width: 750px) {
     .nav-button {
       font-size: 1.125em; } }
