@@ -2310,7 +2310,7 @@ hr {
 
 @media screen and (min-width: 696px) {
   #expertise {
-    padding: 45px 0 73px 0; } }
+    padding: 30px 0 73px 0; } }
 
 .heading-line {
   width: 65px; }
@@ -2536,10 +2536,10 @@ position: relative; */
 
 .testimonials {
   background-color: #1A1A1A;
-  padding: 45px 0 45px 0; }
+  padding: 30px 0 45px 0; }
   @media screen and (min-width: 900px) {
     .testimonials {
-      padding: 45px 0px 88px 0px; } }
+      padding: 30px 0px 88px 0px; } }
 
 .light {
   border-bottom: 3px solid #FFFFFF; }

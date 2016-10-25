@@ -165,7 +165,7 @@ hr {
 
 #expertise {
   @include at-query(696px) {
-    padding: 45px 0 73px 0;
+    padding: 30px 0 73px 0;
   }
 }
 
@@ -453,10 +453,10 @@ hr {
 
 .testimonials {
   background-color: $colorBGdark;
-  padding: 45px 0 45px 0;
+  padding: 30px 0 45px 0;
 
   @include at-query(900px) {
-    padding: 45px 0px 88px 0px;
+    padding: 30px 0px 88px 0px;
   } 
 }
 
