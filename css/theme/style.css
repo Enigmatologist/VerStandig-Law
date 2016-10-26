@@ -2162,6 +2162,11 @@ h2, h3, h4 {
 
 /* ------------------------- *\
 
+    # Gaming Law Page #
+
+\* ------------------------- */
+/* ------------------------- *\
+
     # Homepage #
 
 \* ------------------------- */
@@ -2745,20 +2750,23 @@ position: relative; */
     # Gaming Law Page #
 
 \* ------------------------- */
-#contact-other {
-  background-color: #1A1A1A;
-  padding: 70px 0px 0px; }
-
-#other-hero {
+#expertise-hero {
   padding: 35px 0 20px;
   background: #373634 url("../../images/expertise-pages/gaming_law-1200-1x.jpg");
   background-size: cover;
   background-position: center;
   min-height: 600px; }
   @media screen and (min-width: 1600px) {
-    #other-hero {
+    #expertise-hero {
       background: #373634 url("../../images/expertise-pages/gaming_law-1600-1x.jpg");
       background-size: cover;
       background-position: center; } }
+
+.expertise-hero-text {
+  max-width: 710px; }
+
+#contact-other {
+  background-color: #1A1A1A;
+  padding: 70px 0px 0px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -727,12 +727,7 @@ hr {
 
 \* ------------------------- */
 
-#contact-other {
-  background-color: $colorBGdark;
-  padding: 70px 0px 0px;
-}
-
-#other-hero {
+#expertise-hero {
   padding: 35px 0 20px;
   background: #373634 url("../../images/expertise-pages/gaming_law-1200-1x.jpg");
   background-size: cover;
@@ -745,4 +740,16 @@ hr {
     background-position: center;
   }
 }
+
+.expertise-hero-text {
+  max-width: 710px;
+  
+}
+
+#contact-other {
+  background-color: $colorBGdark;
+  padding: 70px 0px 0px;
+}
+
+
 
