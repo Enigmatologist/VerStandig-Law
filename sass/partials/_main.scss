@@ -716,5 +716,12 @@ hr {
   padding: 35px 0 20px;
   background: #373634 url("../../images/expertise-pages/gaming_law-1200-1x.jpg");
   background-size: cover;
-  min-height: 504px;
+  background-position: center;
+  min-height: 600px;
+
+  @include at-query (1600px) {
+    background: #373634 url("../../images/expertise-pages/gaming_law-1600-1x.jpg");
+    background-size: cover;
+    background-position: center;
+  }
 }
