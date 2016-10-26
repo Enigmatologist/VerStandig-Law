@@ -2642,10 +2642,6 @@ position: relative; */
   background-position: center;
   padding: 70px 0px 0px; }
 
-#contact-other {
-  background-color: #1A1A1A;
-  padding: 70px 0px 0px; }
-
 .contact-content {
   text-align: center;
   padding-bottom: 43px; }
@@ -2742,5 +2738,14 @@ position: relative; */
     margin-right: 30px; }
     .protection .protection-block .copyright-align {
       vertical-align: 10%; }
+
+/* ------------------------- *\
+
+    # Gaming Law Page #
+
+\* ------------------------- */
+#contact-other {
+  background-color: #1A1A1A;
+  padding: 70px 0px 0px; }
 
 /*# sourceMappingURL=style.css.map */
