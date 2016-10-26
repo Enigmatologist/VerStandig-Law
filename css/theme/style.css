@@ -2039,23 +2039,12 @@ h2, h3, h4 {
   font-size: 2.5625em;
   letter-spacing: 3.08px;
   line-height: 60px;
-  margin-bottom: 0px;
-  max-width: 710px; }
-  @media screen and (min-width: 412px) {
-    .motto {
-      padding: 0 60px 0 0; } }
+  margin-bottom: 0px; }
   @media screen and (min-width: 600px) {
     .motto {
       font-size: 3.25em;
       letter-spacing: 4.34px;
-      line-height: 70px;
-      padding: 0px 60px 0px 30px; } }
-  @media screen and (min-width: 700px) {
-    .motto {
-      padding: 30px 0px 0px 45px; } }
-  @media screen and (min-width: 1000px) {
-    .motto {
-      padding: 30px 0px 0px 65px; } }
+      line-height: 70px; } }
 
 .description {
   font-weight: 400;
@@ -2067,15 +2056,12 @@ h2, h3, h4 {
   max-width: 460px; }
   @media screen and (min-width: 600px) {
     .description {
-      padding-left: 30px; } }
+      padding-right: 80px; } }
   @media screen and (min-width: 700px) {
     .description {
       font-size: 1.25em;
       letter-spacing: 0.09px;
-      padding: 0 0 0 45px; } }
-  @media screen and (min-width: 1000px) {
-    .description {
-      padding: 0px 0px 0px 65px; } }
+      padding: 0px 40px 0px 0px; } }
 
 .contact-text {
   font-size: 0.9375em;
@@ -2282,6 +2268,21 @@ hr {
 
 .nav-button {
   padding: 0 10px; }
+
+.hero-text {
+  max-width: 710px; }
+  @media screen and (min-width: 412px) {
+    .hero-text {
+      padding: 0 60px 0 0; } }
+  @media screen and (min-width: 600px) {
+    .hero-text {
+      padding: 0px 60px 0px 30px; } }
+  @media screen and (min-width: 700px) {
+    .hero-text {
+      padding: 30px 0px 0px 45px; } }
+  @media screen and (min-width: 1000px) {
+    .hero-text {
+      padding: 30px 0px 0px 65px; } }
 
 .contact-text {
   padding: 69px 0px 4px; }
