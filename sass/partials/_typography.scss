@@ -232,11 +232,13 @@ h2, h3, h4 {
 .toggle-description {
   font-family: $headerText;
   font-weight: 700;
-  font-size: em(18px);
+  font-size: em(16px);
   text-transform: uppercase;
   letter-spacing: 0.08px;
-  line-height: 24px;
+  line-height: 20px;
   color: $colorWhite;
+  padding: 0px 0px 0px 10px;
+  margin: 1px 0px 0px 0px;
 }
 
 

@@ -743,23 +743,32 @@ hr {
 
 .expertise-hero-text {
   max-width: 710px;
-  
+  padding: 177px 0px 0px 0px;
 }
 
 .toggle-text {
   border-left: 4px solid $colorAccent;
+  margin-top: 12px;
 }
 
 .toggle-description, .arrows {
   display: inline-block;
 }
 
+.arrows {
+  padding: 0; 
+  position: absolute;
+  margin-top: 3px;
+  margin-left: -6px;
+}
+
 .toggle-arrow {
   display: inline-block;
+  padding: 0px 0px 0px 25px;
 }
 
 .left-arrow, .right-arrow {
-  width: 13px;
+  width: 16px;
 }
 
 #contact-other {

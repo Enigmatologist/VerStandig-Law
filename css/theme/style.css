@@ -2168,11 +2168,13 @@ h2, h3, h4 {
 .toggle-description {
   font-family: "Quattrocento", Georgia, Times New Roman, serif;
   font-weight: 700;
-  font-size: 1.125em;
+  font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 0.08px;
-  line-height: 24px;
-  color: #FFFFFF; }
+  line-height: 20px;
+  color: #FFFFFF;
+  padding: 0px 0px 0px 10px;
+  margin: 1px 0px 0px 0px; }
 
 /* ------------------------- *\
 
@@ -2772,19 +2774,28 @@ position: relative; */
       background-position: center; } }
 
 .expertise-hero-text {
-  max-width: 710px; }
+  max-width: 710px;
+  padding: 177px 0px 0px 0px; }
 
 .toggle-text {
-  border-left: 4px solid #B6985A; }
+  border-left: 4px solid #B6985A;
+  margin-top: 12px; }
 
 .toggle-description, .arrows {
   display: inline-block; }
 
+.arrows {
+  padding: 0;
+  position: absolute;
+  margin-top: 3px;
+  margin-left: -6px; }
+
 .toggle-arrow {
-  display: inline-block; }
+  display: inline-block;
+  padding: 0px 0px 0px 25px; }
 
 .left-arrow, .right-arrow {
-  width: 13px; }
+  width: 16px; }
 
 #contact-other {
   background-color: #1A1A1A;
