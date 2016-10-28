@@ -2165,6 +2165,15 @@ h2, h3, h4 {
     # Gaming Law Page #
 
 \* ------------------------- */
+.toggle-description {
+  font-family: "Quattrocento", Georgia, Times New Roman, serif;
+  font-weight: 700;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  letter-spacing: 0.08px;
+  line-height: 24px;
+  color: #FFFFFF; }
+
 /* ------------------------- *\
 
     # Homepage #
@@ -2764,6 +2773,18 @@ position: relative; */
 
 .expertise-hero-text {
   max-width: 710px; }
+
+.toggle-text {
+  border-left: 4px solid #B6985A; }
+
+.toggle-description, .arrows {
+  display: inline-block; }
+
+.toggle-arrow {
+  display: inline-block; }
+
+.left-arrow, .right-arrow {
+  width: 13px; }
 
 #contact-other {
   background-color: #1A1A1A;

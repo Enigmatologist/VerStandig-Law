@@ -746,6 +746,22 @@ hr {
   
 }
 
+.toggle-text {
+  border-left: 4px solid $colorAccent;
+}
+
+.toggle-description, .arrows {
+  display: inline-block;
+}
+
+.toggle-arrow {
+  display: inline-block;
+}
+
+.left-arrow, .right-arrow {
+  width: 13px;
+}
+
 #contact-other {
   background-color: $colorBGdark;
   padding: 70px 0px 0px;

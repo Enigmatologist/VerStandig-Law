@@ -229,7 +229,15 @@ h2, h3, h4 {
 
 \* ------------------------- */
 
-
+.toggle-description {
+  font-family: $headerText;
+  font-weight: 700;
+  font-size: em(18px);
+  text-transform: uppercase;
+  letter-spacing: 0.08px;
+  line-height: 24px;
+  color: $colorWhite;
+}
 
 
 
