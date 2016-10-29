@@ -239,6 +239,11 @@ h2, h3, h4 {
   color: $colorWhite;
   padding: 0px 0px 0px 10px;
   margin: 1px 0px 0px 0px;
+
+  @include at-query($one) {
+    font-size: em(18px);
+    line-height: 22px;
+  }
 }
 
 

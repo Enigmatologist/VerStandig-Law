@@ -2175,6 +2175,10 @@ h2, h3, h4 {
   color: #FFFFFF;
   padding: 0px 0px 0px 10px;
   margin: 1px 0px 0px 0px; }
+  @media screen and (min-width: 412px) {
+    .toggle-description {
+      font-size: 1.125em;
+      line-height: 22px; } }
 
 /* ------------------------- *\
 
@@ -2766,7 +2770,7 @@ position: relative; */
   background: #373634 url("../../images/expertise-pages/gaming_law-1200-1x.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 600px; }
+  min-height: 572px; }
   @media screen and (min-width: 1600px) {
     #expertise-hero {
       background: #373634 url("../../images/expertise-pages/gaming_law-1600-1x.jpg");
@@ -2776,10 +2780,31 @@ position: relative; */
 .expertise-hero-text {
   max-width: 710px;
   padding: 177px 0px 0px 0px; }
+  @media screen and (min-width: 346px) {
+    .expertise-hero-text {
+      padding: 240px 0px 0px 0px; } }
+  @media screen and (min-width: 412px) {
+    .expertise-hero-text {
+      padding: 237px 0px 0px 0px; } }
+  @media screen and (min-width: 600px) {
+    .expertise-hero-text {
+      padding: 222px 0px 0px 0px; } }
+  @media screen and (min-width: 700px) {
+    .expertise-hero-text {
+      padding: 303px 0px 0px 45px; } }
+  @media screen and (min-width: 1000px) {
+    .expertise-hero-text {
+      padding: 303px 0px 0px 65px; } }
 
 .toggle-text {
   border-left: 4px solid #B6985A;
   margin-top: 12px; }
+  @media screen and (min-width: 412px) {
+    .toggle-text {
+      margin-top: 13px; } }
+  @media screen and (min-width: 600px) {
+    .toggle-text {
+      margin-top: 11px; } }
 
 .toggle-description, .arrows {
   display: inline-block; }

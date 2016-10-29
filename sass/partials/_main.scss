@@ -732,7 +732,7 @@ hr {
   background: #373634 url("../../images/expertise-pages/gaming_law-1200-1x.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 600px;
+  min-height: 572px;
 
   @include at-query (1600px) {
     background: #373634 url("../../images/expertise-pages/gaming_law-1600-1x.jpg");
@@ -744,11 +744,39 @@ hr {
 .expertise-hero-text {
   max-width: 710px;
   padding: 177px 0px 0px 0px;
+
+  @include at-query(346px) {
+    padding: 240px 0px 0px 0px;
+  }
+  
+  @include at-query($one) {
+    padding: 237px 0px 0px 0px;
+  }
+
+  @include at-query($two) {
+    padding: 222px 0px 0px 0px;
+  }
+
+  @include at-query($three) {
+    padding: 303px 0px 0px 45px;
+  }
+
+  @include at-query($four) {
+    padding: 303px 0px 0px 65px;
+  }
 }
 
 .toggle-text {
   border-left: 4px solid $colorAccent;
   margin-top: 12px;
+
+  @include at-query($one) {
+    margin-top: 13px;
+  }
+
+  @include at-query($two) {
+    margin-top: 11px;
+  }
 }
 
 .toggle-description, .arrows {
