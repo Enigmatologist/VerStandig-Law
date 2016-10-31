@@ -10,7 +10,7 @@ section {
 
 header {
   padding: 0px 20px $unit;
-  max-width: 1140px;
+  max-width: 1190px;
   margin: 0 auto;
 }
 
@@ -50,7 +50,7 @@ hr {
 .container1 {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: 1130px;
+  max-width: 1190px;
 }
 
 .special-container {
@@ -77,6 +77,11 @@ hr {
   @include at-query($two) {
     max-width: 855px
   }
+}
+
+.container4 {
+  margin: 0 auto;
+  max-width: 1005px;
 }
 
 .logo {
@@ -810,6 +815,29 @@ hr {
 
 .left-arrow, .right-arrow {
   width: 16px;
+}
+
+.expertise-content {
+  padding: 55px 0;
+}
+
+.expertise-description {
+  -webkit-columns: 2 487px;
+       -moz-columns: 2 487px;
+            columns: 2 487px;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
+            max-width: 1005px;
+            margin: 0 auto;
+}
+
+.expertise-summary {
+  font-size: em(20px);
+  font-weight: 400;
+  letter-spacing: 0.08px;
+  line-height: 32px;
+  margin: 0 auto;
 }
 
 #contact-other {

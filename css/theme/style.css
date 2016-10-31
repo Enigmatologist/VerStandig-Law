@@ -2180,6 +2180,15 @@ h2, h3, h4 {
       font-size: 1.125em;
       line-height: 22px; } }
 
+.dropcap {
+  float: left;
+  font-family: "Fanwood Text", Times New Roman, Georgia, serif;
+  font-size: 3.25em;
+  line-height: 60px;
+  color: #000000;
+  padding-right: 10px;
+  margin: 7px 0px -3px 0px; }
+
 /* ------------------------- *\
 
     # Homepage #
@@ -2190,7 +2199,7 @@ section {
 
 header {
   padding: 0px 20px 30px;
-  max-width: 1140px;
+  max-width: 1190px;
   margin: 0 auto; }
 
 a {
@@ -2223,7 +2232,7 @@ hr {
 .container1 {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: 1130px; }
+  max-width: 1190px; }
 
 .special-container {
   margin: 0 auto; }
@@ -2244,6 +2253,10 @@ hr {
   @media screen and (min-width: 600px) {
     .container3 {
       max-width: 855px; } }
+
+.container4 {
+  margin: 0 auto;
+  max-width: 1005px; }
 
 .logo {
   text-align: center; }
@@ -2831,6 +2844,26 @@ position: relative; */
 
 .left-arrow, .right-arrow {
   width: 16px; }
+
+.expertise-content {
+  padding: 55px 0; }
+
+.expertise-description {
+  -webkit-columns: 2 487px;
+  -moz-columns: 2 487px;
+  columns: 2 487px;
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px;
+  max-width: 1005px;
+  margin: 0 auto; }
+
+.expertise-summary {
+  font-size: 1.25em;
+  font-weight: 400;
+  letter-spacing: 0.08px;
+  line-height: 32px;
+  margin: 0 auto; }
 
 #contact-other {
   background-color: #1A1A1A;
