@@ -2779,22 +2779,22 @@ position: relative; */
 
 .expertise-hero-text {
   max-width: 710px;
-  padding: 177px 0px 0px 0px; }
+  padding: 152px 0px 0px 0px; }
   @media screen and (min-width: 346px) {
     .expertise-hero-text {
-      padding: 240px 0px 0px 0px; } }
+      padding: 212px 0px 0px 0px; } }
   @media screen and (min-width: 412px) {
     .expertise-hero-text {
-      padding: 237px 0px 0px 0px; } }
+      padding: 210px 0px 0px 0px; } }
   @media screen and (min-width: 600px) {
     .expertise-hero-text {
-      padding: 222px 0px 0px 0px; } }
+      padding: 194px 0px 0px 0px; } }
   @media screen and (min-width: 700px) {
     .expertise-hero-text {
-      padding: 303px 0px 0px 45px; } }
+      padding: 275px 0px 0px 45px; } }
   @media screen and (min-width: 1000px) {
     .expertise-hero-text {
-      padding: 303px 0px 0px 65px; } }
+      padding: 273px 0px 0px 65px; } }
 
 .toggle-text {
   border-left: 4px solid #B6985A;
@@ -2815,9 +2815,19 @@ position: relative; */
   margin-top: 3px;
   margin-left: -6px; }
 
-.toggle-arrow {
+.toggle-arrow-left {
   display: inline-block;
-  padding: 0px 0px 0px 25px; }
+  padding-left: 25px; }
+  @media screen and (min-width: 900px) {
+    .toggle-arrow-left {
+      padding-left: 29px; } }
+
+.toggle-arrow-right {
+  display: inline-block;
+  padding-left: 25px; }
+  @media screen and (min-width: 900px) {
+    .toggle-arrow-right {
+      padding-left: 8px; } }
 
 .left-arrow, .right-arrow {
   width: 16px; }
