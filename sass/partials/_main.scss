@@ -746,7 +746,7 @@ hr {
   }
 }
 
-.gaming-hero-text {
+.gaming-hero-text, .domestic-hero-text {
   max-width: 800px;
   padding: 152px 0px 0px 0px;
 
@@ -914,16 +914,10 @@ hr {
 
 #domestic-hero {
   padding: 35px 0 50px;
-  background: #373634 url("../../images/expertise-pages/gaming_law-1200-1x.jpg");
+  background: #373634 url("../../images/expertise-pages/domestic_law-1200-1x.jpg");
   background-size: cover;
   background-position: center;
   min-height: 572px;
-
-  @include at-query (1600px) {
-    background: #373634 url("../../images/expertise-pages/gaming_law-1600-1x.jpg");
-    background-size: cover;
-    background-position: center;
-  }
 }
 
 
