@@ -818,18 +818,28 @@ hr {
 }
 
 .expertise-content {
-  padding: 55px 0;
+  padding: 60px 20px;
+
+  @include at-query($three) {
+    padding: 60px 65px;
+  }
+
+  @include at-query($four) {
+    padding: 60px 85px;
+  }
+
 }
 
 .expertise-description {
-  -webkit-columns: 2 487px;
-       -moz-columns: 2 487px;
-            columns: 2 487px;
+  -webkit-columns: 2 387px;
+       -moz-columns: 2 387px;
+            columns: 2 387px;
     -webkit-column-gap: 30px;
        -moz-column-gap: 30px;
             column-gap: 30px;
             max-width: 1005px;
             margin: 0 auto;
+
 }
 
 .expertise-summary {
