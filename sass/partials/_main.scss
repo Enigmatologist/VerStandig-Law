@@ -863,15 +863,13 @@ hr {
 
 #criminal-hero {
   padding: 35px 0 50px;
-  background: #373634 url("../../images/expertise-pages/gaming_law-1200-1x.jpg");
+  background: #373634 url("../../images/expertise-pages/criminal_law-1200-1x.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: 60% 0%;
   min-height: 572px;
 
-  @include at-query (1600px) {
-    background: #373634 url("../../images/expertise-pages/gaming_law-1600-1x.jpg");
-    background-size: cover;
-    background-position: center;
+  @include at-query(768px) {
+    background-position: 90% 0%;
   }
 }
 

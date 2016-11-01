@@ -2887,15 +2887,13 @@ position: relative; */
 \* ------------------------- */
 #criminal-hero {
   padding: 35px 0 50px;
-  background: #373634 url("../../images/expertise-pages/gaming_law-1200-1x.jpg");
+  background: #373634 url("../../images/expertise-pages/criminal_law-1200-1x.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: 60% 0%;
   min-height: 572px; }
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 768px) {
     #criminal-hero {
-      background: #373634 url("../../images/expertise-pages/gaming_law-1600-1x.jpg");
-      background-size: cover;
-      background-position: center; } }
+      background-position: 90% 0%; } }
 
 .criminal-hero-text {
   max-width: 800px;
