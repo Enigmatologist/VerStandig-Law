@@ -732,8 +732,8 @@ hr {
 
 \* ------------------------- */
 
-#expertise-hero {
-  padding: 35px 0 20px;
+#gaming-hero {
+  padding: 35px 0 50px;
   background: #373634 url("../../images/expertise-pages/gaming_law-1200-1x.jpg");
   background-size: cover;
   background-position: center;
@@ -746,8 +746,8 @@ hr {
   }
 }
 
-.expertise-hero-text {
-  max-width: 710px;
+.gaming-hero-text {
+  max-width: 800px;
   padding: 152px 0px 0px 0px;
 
   @include at-query(346px) {
@@ -861,9 +861,44 @@ hr {
 
 \* ------------------------- */
 
+#criminal-hero {
+  padding: 35px 0 50px;
+  background: #373634 url("../../images/expertise-pages/gaming_law-1200-1x.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 572px;
 
+  @include at-query (1600px) {
+    background: #373634 url("../../images/expertise-pages/gaming_law-1600-1x.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
 
+.criminal-hero-text {
+  max-width: 800px;
+  padding: 121px 0px 0px 0px;
 
+  @include at-query(346px) {
+    padding: 212px 0px 0px 0px;
+  }
+  
+  @include at-query($one) {
+    padding: 210px 0px 0px 0px;
+  }
+
+  @include at-query($two) {
+    padding: 194px 0px 0px 0px;
+  }
+
+  @include at-query($three) {
+    padding: 275px 0px 0px 45px;
+  }
+
+  @include at-query($four) {
+    padding: 273px 0px 0px 65px;
+  }
+}
 
 
 

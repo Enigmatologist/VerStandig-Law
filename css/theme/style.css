@@ -2783,35 +2783,35 @@ position: relative; */
     # Gaming Law Page #
 
 \* ------------------------- */
-#expertise-hero {
-  padding: 35px 0 20px;
+#gaming-hero {
+  padding: 35px 0 50px;
   background: #373634 url("../../images/expertise-pages/gaming_law-1200-1x.jpg");
   background-size: cover;
   background-position: center;
   min-height: 572px; }
   @media screen and (min-width: 1600px) {
-    #expertise-hero {
+    #gaming-hero {
       background: #373634 url("../../images/expertise-pages/gaming_law-1600-1x.jpg");
       background-size: cover;
       background-position: center; } }
 
-.expertise-hero-text {
-  max-width: 710px;
+.gaming-hero-text {
+  max-width: 800px;
   padding: 152px 0px 0px 0px; }
   @media screen and (min-width: 346px) {
-    .expertise-hero-text {
+    .gaming-hero-text {
       padding: 212px 0px 0px 0px; } }
   @media screen and (min-width: 412px) {
-    .expertise-hero-text {
+    .gaming-hero-text {
       padding: 210px 0px 0px 0px; } }
   @media screen and (min-width: 600px) {
-    .expertise-hero-text {
+    .gaming-hero-text {
       padding: 194px 0px 0px 0px; } }
   @media screen and (min-width: 700px) {
-    .expertise-hero-text {
+    .gaming-hero-text {
       padding: 275px 0px 0px 45px; } }
   @media screen and (min-width: 1000px) {
-    .expertise-hero-text {
+    .gaming-hero-text {
       padding: 273px 0px 0px 65px; } }
 
 .toggle-text {
@@ -2885,5 +2885,35 @@ position: relative; */
     # Criminal Defense Page #
 
 \* ------------------------- */
+#criminal-hero {
+  padding: 35px 0 50px;
+  background: #373634 url("../../images/expertise-pages/gaming_law-1200-1x.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 572px; }
+  @media screen and (min-width: 1600px) {
+    #criminal-hero {
+      background: #373634 url("../../images/expertise-pages/gaming_law-1600-1x.jpg");
+      background-size: cover;
+      background-position: center; } }
+
+.criminal-hero-text {
+  max-width: 800px;
+  padding: 121px 0px 0px 0px; }
+  @media screen and (min-width: 346px) {
+    .criminal-hero-text {
+      padding: 212px 0px 0px 0px; } }
+  @media screen and (min-width: 412px) {
+    .criminal-hero-text {
+      padding: 210px 0px 0px 0px; } }
+  @media screen and (min-width: 600px) {
+    .criminal-hero-text {
+      padding: 194px 0px 0px 0px; } }
+  @media screen and (min-width: 700px) {
+    .criminal-hero-text {
+      padding: 275px 0px 0px 45px; } }
+  @media screen and (min-width: 1000px) {
+    .criminal-hero-text {
+      padding: 273px 0px 0px 65px; } }
 
 /*# sourceMappingURL=style.css.map */
