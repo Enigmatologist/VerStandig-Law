@@ -898,7 +898,13 @@ hr {
   }
 }
 
+.extra {
+  margin-top: 32px;
 
+  @include at-query(934px){
+    margin-top: auto;
+  }
+}
 
 
 

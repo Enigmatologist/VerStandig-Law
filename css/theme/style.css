@@ -2914,4 +2914,10 @@ position: relative; */
     .criminal-hero-text {
       padding: 273px 0px 0px 65px; } }
 
+.extra {
+  margin-top: 32px; }
+  @media screen and (min-width: 934px) {
+    .extra {
+      margin-top: auto; } }
+
 /*# sourceMappingURL=style.css.map */
