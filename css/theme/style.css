@@ -2191,11 +2191,6 @@ h2, h3, h4 {
 
 /* ------------------------- *\
 
-    # Criminal Defense Page #
-
-\* ------------------------- */
-/* ------------------------- *\
-
     # Homepage #
 
 \* ------------------------- */
@@ -2919,5 +2914,22 @@ position: relative; */
   @media screen and (min-width: 934px) {
     .extra {
       margin-top: auto; } }
+
+/* ------------------------- *\
+
+    # Domestic Relations Page #
+
+\* ------------------------- */
+#domestic-hero {
+  padding: 35px 0 50px;
+  background: #373634 url("../../images/expertise-pages/gaming_law-1200-1x.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 572px; }
+  @media screen and (min-width: 1600px) {
+    #domestic-hero {
+      background: #373634 url("../../images/expertise-pages/gaming_law-1600-1x.jpg");
+      background-size: cover;
+      background-position: center; } }
 
 /*# sourceMappingURL=style.css.map */
