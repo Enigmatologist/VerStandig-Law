@@ -746,7 +746,7 @@ hr {
   }
 }
 
-.gaming-hero-text, .domestic-hero-text, .litigation-hero-text {
+.gaming-hero-text, .domestic-hero-text {
   max-width: 800px;
   padding: 152px 0px 0px 0px;
 
@@ -938,8 +938,26 @@ hr {
   }
 }
 
+.litigation-hero-text {
+  max-width: 800px;
+  padding: 212px 0px 0px 0px;
 
+  @include at-query($one) {
+    padding: 210px 0px 0px 0px;
+  }
 
+  @include at-query($two) {
+    padding: 194px 0px 0px 0px;
+  }
+
+  @include at-query($three) {
+    padding: 275px 0px 0px 45px;
+  }
+
+  @include at-query($four) {
+    padding: 273px 0px 0px 65px;
+  }
+}
 
 
 
