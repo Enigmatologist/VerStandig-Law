@@ -746,7 +746,7 @@ hr {
   }
 }
 
-.gaming-hero-text, .domestic-hero-text {
+.gaming-hero-text, .domestic-hero-text, .litigation-hero-text {
   max-width: 800px;
   padding: 152px 0px 0px 0px;
 
@@ -919,6 +919,35 @@ hr {
   background-position: center;
   min-height: 572px;
 }
+
+/* ------------------------- *\
+
+    # Litigation Page #
+
+\* ------------------------- */
+
+#litigation-hero {
+  padding: 35px 0 50px;
+  background: #373634 url("../../images/expertise-pages/litigation_law-1200-1x.jpg");
+  background-size: cover;
+  background-position: 5% 0%;
+  min-height: 572px;
+
+  @include at-query(1500px) {
+    background-position: 6% 70%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
