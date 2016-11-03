@@ -2790,23 +2790,23 @@ position: relative; */
       background-size: cover;
       background-position: center; } }
 
-.gaming-hero-text, .domestic-hero-text {
-  max-width: 800px;
+.gaming-hero-text, .domestic-hero-text, .business-transactions-hero-text {
+  max-width: 820px;
   padding: 152px 0px 0px 0px; }
   @media screen and (min-width: 346px) {
-    .gaming-hero-text, .domestic-hero-text {
+    .gaming-hero-text, .domestic-hero-text, .business-transactions-hero-text {
       padding: 212px 0px 0px 0px; } }
   @media screen and (min-width: 412px) {
-    .gaming-hero-text, .domestic-hero-text {
+    .gaming-hero-text, .domestic-hero-text, .business-transactions-hero-text {
       padding: 210px 0px 0px 0px; } }
   @media screen and (min-width: 600px) {
-    .gaming-hero-text, .domestic-hero-text {
+    .gaming-hero-text, .domestic-hero-text, .business-transactions-hero-text {
       padding: 194px 0px 0px 0px; } }
   @media screen and (min-width: 700px) {
-    .gaming-hero-text, .domestic-hero-text {
+    .gaming-hero-text, .domestic-hero-text, .business-transactions-hero-text {
       padding: 275px 0px 0px 45px; } }
   @media screen and (min-width: 1000px) {
-    .gaming-hero-text, .domestic-hero-text {
+    .gaming-hero-text, .domestic-hero-text, .business-transactions-hero-text {
       padding: 273px 0px 0px 65px; } }
 
 .toggle-text {
@@ -2957,5 +2957,20 @@ position: relative; */
   @media screen and (min-width: 1000px) {
     .litigation-hero-text {
       padding: 273px 0px 0px 65px; } }
+
+/* -------------------------------- *\
+
+    # Business Transactions Page #
+
+\* -------------------------------- */
+#business-transactions-hero {
+  padding: 35px 0 50px;
+  background: #373634 url("../../images/expertise-pages/litigation_law-1200-1x.jpg");
+  background-size: cover;
+  background-position: 5% 0%;
+  min-height: 572px; }
+  @media screen and (min-width: 1500px) {
+    #business-transactions-hero {
+      background-position: 6% 70%; } }
 
 /*# sourceMappingURL=style.css.map */
