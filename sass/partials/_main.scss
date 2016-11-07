@@ -938,7 +938,7 @@ hr {
   }
 }
 
-.litigation-hero-text {
+.litigation-hero-text, .insights-hero-text {
   max-width: 800px;
   padding: 212px 0px 0px 0px;
 
@@ -983,7 +983,17 @@ hr {
 
 \* -------------------------------- */
 
+#insights-hero {
+  padding: 35px 0 50px;
+  background: #373634 url("../../images/expertise-pages/business_law-1200-1x.jpg");
+  background-size: cover;
+  background-position: 35% 0%;
+  min-height: 572px;
 
+  @include at-query(1500px) {
+    background-position: 6% 70%;
+  }
+}
 
 
 

@@ -256,7 +256,31 @@ h2, h3, h4 {
     margin: 7px 0px -3px 0px;
   }
 
+/* ------------------------- *\
 
+    # Insights Page #
 
+\* ------------------------- */
 
+.insights-description {
+  font-weight: 400;
+  font-style: italic;
+  font-size: em(18px);
+  letter-spacing: 0.07px;
+  line-height: 25px;
+  color: #E5E5E5;
+  max-width: 460px;
+  margin-top: 9px;
+  margin-bottom: 0px;
+  
+  @include at-query (500px) {
+    padding-right: 80px;
+  }
+
+  @include at-query ($three) {
+    font-size: em(20px);
+    letter-spacing: 0.09px;
+    padding: 0px 40px 0px 0px;
+  }
+}
 

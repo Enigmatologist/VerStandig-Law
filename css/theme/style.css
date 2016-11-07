@@ -2191,6 +2191,30 @@ h2, h3, h4 {
 
 /* ------------------------- *\
 
+    # Insights Page #
+
+\* ------------------------- */
+.insights-description {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.125em;
+  letter-spacing: 0.07px;
+  line-height: 25px;
+  color: #E5E5E5;
+  max-width: 460px;
+  margin-top: 9px;
+  margin-bottom: 0px; }
+  @media screen and (min-width: 500px) {
+    .insights-description {
+      padding-right: 80px; } }
+  @media screen and (min-width: 700px) {
+    .insights-description {
+      font-size: 1.25em;
+      letter-spacing: 0.09px;
+      padding: 0px 40px 0px 0px; } }
+
+/* ------------------------- *\
+
     # Homepage #
 
 \* ------------------------- */
@@ -2942,20 +2966,20 @@ position: relative; */
     #litigation-hero {
       background-position: 6% 70%; } }
 
-.litigation-hero-text {
+.litigation-hero-text, .insights-hero-text {
   max-width: 800px;
   padding: 212px 0px 0px 0px; }
   @media screen and (min-width: 412px) {
-    .litigation-hero-text {
+    .litigation-hero-text, .insights-hero-text {
       padding: 210px 0px 0px 0px; } }
   @media screen and (min-width: 600px) {
-    .litigation-hero-text {
+    .litigation-hero-text, .insights-hero-text {
       padding: 194px 0px 0px 0px; } }
   @media screen and (min-width: 700px) {
-    .litigation-hero-text {
+    .litigation-hero-text, .insights-hero-text {
       padding: 275px 0px 0px 45px; } }
   @media screen and (min-width: 1000px) {
-    .litigation-hero-text {
+    .litigation-hero-text, .insights-hero-text {
       padding: 273px 0px 0px 65px; } }
 
 /* -------------------------------- *\
@@ -2978,5 +3002,14 @@ position: relative; */
     # Insights Page #
 
 \* -------------------------------- */
+#insights-hero {
+  padding: 35px 0 50px;
+  background: #373634 url("../../images/expertise-pages/business_law-1200-1x.jpg");
+  background-size: cover;
+  background-position: 35% 0%;
+  min-height: 572px; }
+  @media screen and (min-width: 1500px) {
+    #insights-hero {
+      background-position: 6% 70%; } }
 
 /*# sourceMappingURL=style.css.map */
