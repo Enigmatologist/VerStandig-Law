@@ -2999,6 +2999,18 @@ position: relative; */
 
 /* -------------------------------- *\
 
+    # Profile Page - Mac VerStandig #
+
+\* -------------------------------- */
+#maurice-hero {
+  padding: 35px 0 50px;
+  background: #373634 url("../../images/profile-pages/maurice-hero_1200-1x.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 572px; }
+
+/* -------------------------------- *\
+
     # Insights Page #
 
 \* -------------------------------- */
