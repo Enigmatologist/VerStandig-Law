@@ -938,7 +938,7 @@ hr {
   }
 }
 
-.litigation-hero-text, .insights-hero-text {
+.litigation-hero-text {
   max-width: 800px;
   padding: 212px 0px 0px 0px;
 
@@ -1010,6 +1010,25 @@ hr {
   }
 }
 
+.insights-hero-text {
+  max-width: 800px;
+  padding: 160px 0px 0px 0px;
 
+  @include at-query($one) {
+    padding: 185px 0px 0px 0px;
+  }
+
+  @include at-query($two) {
+    padding: 167px 0px 0px 0px;
+  }
+
+  @include at-query($three) {
+    padding: 248px 0px 0px 45px;
+  }
+
+  @include at-query($four) {
+    padding: 246px 0px 0px 65px;
+  }
+}
 
 

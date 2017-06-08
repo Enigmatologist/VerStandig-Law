@@ -2966,20 +2966,20 @@ position: relative; */
     #litigation-hero {
       background-position: 6% 70%; } }
 
-.litigation-hero-text, .insights-hero-text {
+.litigation-hero-text {
   max-width: 800px;
   padding: 212px 0px 0px 0px; }
   @media screen and (min-width: 412px) {
-    .litigation-hero-text, .insights-hero-text {
+    .litigation-hero-text {
       padding: 210px 0px 0px 0px; } }
   @media screen and (min-width: 600px) {
-    .litigation-hero-text, .insights-hero-text {
+    .litigation-hero-text {
       padding: 194px 0px 0px 0px; } }
   @media screen and (min-width: 700px) {
-    .litigation-hero-text, .insights-hero-text {
+    .litigation-hero-text {
       padding: 275px 0px 0px 45px; } }
   @media screen and (min-width: 1000px) {
-    .litigation-hero-text, .insights-hero-text {
+    .litigation-hero-text {
       padding: 273px 0px 0px 65px; } }
 
 /* -------------------------------- *\
@@ -3023,5 +3023,21 @@ position: relative; */
   @media screen and (min-width: 1500px) {
     #insights-hero {
       background-position: 6% 70%; } }
+
+.insights-hero-text {
+  max-width: 800px;
+  padding: 160px 0px 0px 0px; }
+  @media screen and (min-width: 412px) {
+    .insights-hero-text {
+      padding: 185px 0px 0px 0px; } }
+  @media screen and (min-width: 600px) {
+    .insights-hero-text {
+      padding: 167px 0px 0px 0px; } }
+  @media screen and (min-width: 700px) {
+    .insights-hero-text {
+      padding: 248px 0px 0px 45px; } }
+  @media screen and (min-width: 1000px) {
+    .insights-hero-text {
+      padding: 246px 0px 0px 65px; } }
 
 /*# sourceMappingURL=style.css.map */
