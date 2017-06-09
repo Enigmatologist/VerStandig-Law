@@ -3009,6 +3009,24 @@ position: relative; */
   background-position: center;
   min-height: 572px; }
 
+.contact-icons {
+  padding: 23px 0px 0px; }
+
+.direct-contact {
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 0px; }
+  .direct-contact .single-icon {
+    display: inline-block;
+    margin-right: 35px;
+    border: 1px solid #FFFFFF;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 6px 0px 0px 7px; }
+    .direct-contact .single-icon .twitter-contact, .direct-contact .single-icon .linkedin-contact, .direct-contact .single-icon .email-contact {
+      width: 15px; }
+
 /* -------------------------------- *\
 
     # Insights Page #
