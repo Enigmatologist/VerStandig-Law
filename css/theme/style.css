@@ -3034,6 +3034,9 @@ position: relative; */
     width: 30px;
     border-radius: 50%;
     padding: 6px 0px 0px 7px; }
+    @media screen and (min-width: 900px) {
+      .direct-contact .single-icon {
+        margin-right: 30px; } }
     .direct-contact .single-icon .twitter-contact, .direct-contact .single-icon .linkedin-contact, .direct-contact .single-icon .email-contact {
       width: 15px; }
 

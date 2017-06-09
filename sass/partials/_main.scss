@@ -1024,6 +1024,10 @@ hr {
     border-radius: 50%;
     padding: 6px 0px 0px 7px;
 
+    @include at-query(900px){
+      margin-right: 30px;
+    }
+
     .twitter-contact, .linkedin-contact, .email-contact {
       width: 15px;
     }
