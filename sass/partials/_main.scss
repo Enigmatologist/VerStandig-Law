@@ -991,6 +991,21 @@ hr {
   min-height: 572px;
 } 
 
+.profile-hero {
+  
+  @include at-query($three) {
+    padding: 189px 0px 0px 45px;
+  }
+
+  @include at-query(932px) {
+    padding: 189px 0px 0px 65px;
+  }
+
+  @include at-query($four) {
+    padding: 187px 0px 0px 65px;
+  }
+}
+
 .contact-icons {
   padding: 23px 0px 0px;  
 }

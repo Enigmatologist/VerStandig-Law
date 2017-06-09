@@ -3009,6 +3009,16 @@ position: relative; */
   background-position: center;
   min-height: 572px; }
 
+@media screen and (min-width: 700px) {
+  .profile-hero {
+    padding: 189px 0px 0px 45px; } }
+@media screen and (min-width: 932px) {
+  .profile-hero {
+    padding: 189px 0px 0px 65px; } }
+@media screen and (min-width: 1000px) {
+  .profile-hero {
+    padding: 187px 0px 0px 65px; } }
+
 .contact-icons {
   padding: 23px 0px 0px; }
 
