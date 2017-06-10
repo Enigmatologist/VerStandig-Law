@@ -2080,7 +2080,7 @@ h2, h3, h4 {
   text-align: center; }
   @media screen and (min-width: 600px) {
     .title {
-      font-size: 2.25em;
+      font-size: 2.625em;
       letter-spacing: 0.18px; } }
 
 .content {
