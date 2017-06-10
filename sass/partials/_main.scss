@@ -84,6 +84,11 @@ hr {
   max-width: 1005px;
 }
 
+.container5 {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
 .logo {
   text-align: center;
 
@@ -819,6 +824,7 @@ hr {
 
 .expertise-content {
   padding: 60px 20px;
+  background-color: #f5f5f5;
 
   @include at-query($three) {
     padding: 60px 65px;
@@ -1032,6 +1038,19 @@ hr {
       width: 15px;
     }
   }
+}
+
+.quick-summary {
+  padding: 0px;
+}
+
+.profile-square {
+  text-align: center;
+  padding-bottom: 43px;
+}
+
+.black-line {
+  border-color: $colorBlack; 
 }
 
 /* -------------------------------- *\
