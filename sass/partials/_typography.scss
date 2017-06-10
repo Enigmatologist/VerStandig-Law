@@ -256,6 +256,25 @@ h2, h3, h4 {
     margin: 7px 0px -3px 0px;
   }
 
+/* -------------------------------- *\
+
+    # Profile Page - Mac VerStandig #
+
+\* -------------------------------- */
+
+.profile-title {
+  font-size: em(32px);
+  letter-spacing: 1.18px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 48px;
+  margin: 0 auto;
+
+  @include at-query($two) {
+    font-size: em(42px);
+  }
+}
+
 /* ------------------------- *\
 
     # Insights Page #
