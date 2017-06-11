@@ -3144,8 +3144,11 @@ position: relative; */
 .black-line {
   border-color: #000000; }
 
-.profile-intro {
+.profile-section {
   padding-top: 60px; }
+
+.profile-subsection {
+  padding-top: 20px; }
 
 /* -------------------------------- *\
 
