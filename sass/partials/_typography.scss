@@ -116,6 +116,7 @@ h2, h3, h4 {
   font-size: em(32px);
   letter-spacing: 0.13px;
   text-align: center;
+  line-height: 48px;
 
   @include at-query($two) {
     font-size: em(42px);
@@ -314,6 +315,26 @@ h2, h3, h4 {
     margin: 13px 0px 0px 0px;
   }
 }
+
+.admission-box {
+  text-align: center;
+
+  @include at-query($two) {
+    text-align: left;
+  }
+
+  li {
+    font-family: $bodyText;
+    font-style: italic;
+    letter-spacing: 0.08px;
+    font-size: em(20px);
+    line-height: 28px;
+    margin-bottom: 25px;
+    list-style-type: none;
+  }
+}
+
+
 
 /* ------------------------- *\
 

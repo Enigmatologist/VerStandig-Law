@@ -2077,7 +2077,8 @@ h2, h3, h4 {
 .title {
   font-size: 2em;
   letter-spacing: 0.13px;
-  text-align: center; }
+  text-align: center;
+  line-height: 48px; }
   @media screen and (min-width: 600px) {
     .title {
       font-size: 2.625em;
@@ -2238,6 +2239,20 @@ h2, h3, h4 {
     .extra-awards {
       margin: 13px 0px 0px 0px; } }
 
+.admission-box {
+  text-align: center; }
+  @media screen and (min-width: 600px) {
+    .admission-box {
+      text-align: left; } }
+  .admission-box li {
+    font-family: "Fanwood Text", Times New Roman, Georgia, serif;
+    font-style: italic;
+    letter-spacing: 0.08px;
+    font-size: 1.25em;
+    line-height: 28px;
+    margin-bottom: 25px;
+    list-style-type: none; }
+
 /* ------------------------- *\
 
     # Insights Page #
@@ -2334,6 +2349,10 @@ hr {
 .container5 {
   margin: 0 auto;
   max-width: 780px; }
+
+.container6 {
+  margin: 0 auto;
+  max-width: 848px; }
 
 .logo {
   text-align: center; }
@@ -3131,13 +3150,13 @@ position: relative; */
   width: 194px; }
   @media screen and (min-width: 600px) {
     .profile-pic {
-      width: 242px; } }
+      width: 235px; } }
   @media screen and (min-width: 888px) {
     .profile-pic {
       width: 222px; } }
   @media screen and (min-width: 907px) {
     .profile-pic {
-      width: 206px;
+      width: 198px;
       position: relative;
       right: 18%; } }
 
@@ -3149,6 +3168,13 @@ position: relative; */
 
 .profile-subsection {
   padding-top: 20px; }
+
+.admission-content {
+  margin-top: 0px;
+  padding: 0px 15px; }
+  @media screen and (min-width: 600px) {
+    .admission-content {
+      padding: 0px; } }
 
 /* -------------------------------- *\
 

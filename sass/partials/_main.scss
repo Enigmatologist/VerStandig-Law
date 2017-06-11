@@ -89,6 +89,11 @@ hr {
   max-width: 780px;
 }
 
+.container6 {
+  margin: 0 auto;
+  max-width: 848px;
+}
+
 .logo {
   text-align: center;
 
@@ -1088,7 +1093,7 @@ hr {
   width: 194px;
 
   @include at-query($two){
-    width: 242px;
+    width: 235px;
   }
 
   @include at-query(888px){
@@ -1096,7 +1101,7 @@ hr {
   }
 
   @include at-query(907px){
-    width: 206px;
+    width: 198px;
     position: relative;
     right: 18%;
   }
@@ -1112,6 +1117,15 @@ hr {
 
 .profile-subsection {
   padding-top: 20px;
+}
+
+.admission-content {
+  margin-top: 0px;
+  padding: 0px 15px;
+
+  @include at-query($two){
+    padding: 0px;
+  }
 }
 
 /* -------------------------------- *\
