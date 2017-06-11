@@ -275,6 +275,14 @@ h2, h3, h4 {
   }
 }
 
+.headline, .eline-1, .eline-2 {
+  text-align: center;
+
+  @include at-query($two) {
+    text-align: left;
+  }  
+}
+
 .headline {
   font-size: em(20px);
   font-weight: 400;
@@ -285,20 +293,19 @@ h2, h3, h4 {
   color: $colorBlack;
   }
 
-  .eline-1 {
-    font-size: em(18px);
-    font-weight: 400;
-    letter-spacing: 0.08;
-    margin-top: 16px;
-    text-transform: uppercase;
-  }
+.eline-1 {
+  font-size: em(18px);
+  font-weight: 400;
+  letter-spacing: 0.08;
+  margin: 16px 0px 0px 0px;
+  text-transform: uppercase;
+}
 
-  .eline-2 {
-    font-size: em(18px);
-    text-transform: italic;
-    margin-top: 16px;
-    margin-bottom: 0px; 
-  }
+.eline-2 {
+  font-size: em(18px);
+  margin: 3px 0px -6px 0px; 
+  font-style: italic;
+}
 
 /* ------------------------- *\
 

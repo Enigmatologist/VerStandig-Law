@@ -2205,6 +2205,12 @@ h2, h3, h4 {
     .profile-title {
       font-size: 2.625em; } }
 
+.headline, .eline-1, .eline-2 {
+  text-align: center; }
+  @media screen and (min-width: 600px) {
+    .headline, .eline-1, .eline-2 {
+      text-align: left; } }
+
 .headline {
   font-size: 1.25em;
   font-weight: 400;
@@ -2218,14 +2224,13 @@ h2, h3, h4 {
   font-size: 1.125em;
   font-weight: 400;
   letter-spacing: 0.08;
-  margin-top: 16px;
+  margin: 16px 0px 0px 0px;
   text-transform: uppercase; }
 
 .eline-2 {
   font-size: 1.125em;
-  text-transform: italic;
-  margin-top: 16px;
-  margin-bottom: 0px; }
+  margin: 3px 0px -6px 0px;
+  font-style: italic; }
 
 /* ------------------------- *\
 
@@ -2322,7 +2327,7 @@ hr {
 
 .container5 {
   margin: 0 auto;
-  max-width: 650px; }
+  max-width: 780px; }
 
 .logo {
   text-align: center; }
@@ -2730,8 +2735,11 @@ position: relative; */
   border-width: 1px;
   border-style: solid;
   width: 50px;
-  margin: 0;
+  margin: 0 auto;
   opacity: 0.7; }
+  @media screen and (min-width: 600px) {
+    .heading-line-2 {
+      margin: 0; } }
 
 .goodbye {
   padding: 55px 0px; }
@@ -3084,11 +3092,45 @@ position: relative; */
       width: 15px; }
 
 .quick-summary {
-  padding: 0px; }
+  padding: 35px 0px 0px 0px; }
 
 .profile-square {
   text-align: center;
-  padding-bottom: 43px; }
+  padding: 0px; }
+  @media screen and (min-width: 600px) {
+    .profile-square {
+      text-align: right; } }
+
+@media screen and (min-width: 600px) {
+  .summary-resume {
+    position: relative;
+    right: -1%; } }
+@media screen and (min-width: 907px) {
+  .summary-resume {
+    right: 18%; } }
+
+.for-mobile {
+  padding-top: 20px; }
+  @media screen and (min-width: 600px) {
+    .for-mobile {
+      padding-top: 0px; } }
+
+.awards-mobile {
+  padding-top: 30px; }
+
+.eline-1, .eline-2 {
+  padding-left: 20px; }
+
+.profile-pic {
+  width: 194px; }
+  @media screen and (min-width: 600px) {
+    .profile-pic {
+      width: 233px; } }
+  @media screen and (min-width: 907px) {
+    .profile-pic {
+      width: 198px;
+      position: relative;
+      right: 18%; } }
 
 .black-line {
   border-color: #000000; }
