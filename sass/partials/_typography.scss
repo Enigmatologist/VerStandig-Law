@@ -322,7 +322,13 @@ h2, h3, h4 {
   @include at-query($two) {
     text-align: left;
   }
+}
 
+.admission-box-center {
+  text-align: center;
+}
+
+.admission-box, .admission-box-center {
   li {
     font-family: $bodyText;
     font-style: italic;
@@ -333,8 +339,6 @@ h2, h3, h4 {
     list-style-type: none;
   }
 }
-
-
 
 /* ------------------------- *\
 

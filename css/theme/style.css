@@ -2244,14 +2244,18 @@ h2, h3, h4 {
   @media screen and (min-width: 600px) {
     .admission-box {
       text-align: left; } }
-  .admission-box li {
-    font-family: "Fanwood Text", Times New Roman, Georgia, serif;
-    font-style: italic;
-    letter-spacing: 0.08px;
-    font-size: 1.25em;
-    line-height: 28px;
-    margin-bottom: 25px;
-    list-style-type: none; }
+
+.admission-box-center {
+  text-align: center; }
+
+.admission-box li, .admission-box-center li {
+  font-family: "Fanwood Text", Times New Roman, Georgia, serif;
+  font-style: italic;
+  letter-spacing: 0.08px;
+  font-size: 1.25em;
+  line-height: 28px;
+  margin-bottom: 25px;
+  list-style-type: none; }
 
 /* ------------------------- *\
 
