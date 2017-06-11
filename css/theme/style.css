@@ -2075,7 +2075,7 @@ h2, h3, h4 {
       font-size: 1em; } }
 
 .title {
-  font-size: 2em;
+  font-size: 2.25em;
   letter-spacing: 0.13px;
   text-align: center;
   line-height: 48px; }
@@ -2196,7 +2196,7 @@ h2, h3, h4 {
 
 \* -------------------------------- */
 .profile-title {
-  font-size: 2em;
+  font-size: 2.25em;
   letter-spacing: 1.18px;
   text-align: center;
   text-transform: uppercase;
@@ -3175,6 +3175,9 @@ position: relative; */
   @media screen and (min-width: 600px) {
     .admission-content {
       padding: 0px; } }
+
+.profile-subsection-community {
+  padding-top: 0px; }
 
 /* -------------------------------- *\
 
