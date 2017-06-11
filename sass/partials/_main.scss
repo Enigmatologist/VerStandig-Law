@@ -1077,7 +1077,7 @@ hr {
 }
 
 .awards-mobile {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .eline-1, .eline-2 {
@@ -1088,11 +1088,15 @@ hr {
   width: 194px;
 
   @include at-query($two){
-    width: 233px;
+    width: 242px;
+  }
+
+  @include at-query(888px){
+    width: 222px;
   }
 
   @include at-query(907px){
-    width: 198px;
+    width: 206px;
     position: relative;
     right: 18%;
   }
@@ -1100,6 +1104,10 @@ hr {
 
 .black-line {
   border-color: $colorBlack; 
+}
+
+.profile-intro {
+  padding-top: 60px;
 }
 
 /* -------------------------------- *\
