@@ -3201,6 +3201,32 @@ position: relative; */
 
 /* -------------------------------- *\
 
+    # About Page #
+
+\* -------------------------------- */
+#about-hero {
+  padding: 35px 0 50px;
+  background: #373634 url("../../images/about-page/about-hero-1200-1x.jpg");
+  background-size: cover;
+  background-position: 54%;
+  min-height: 572px; }
+  @media screen and (min-width: 1500px) {
+    #about-hero {
+      background: #373634 url("../../images/about-page/about-hero-1600-1x.jpg");
+      background-size: cover;
+      background-position: center; } }
+
+.about-area {
+  margin-top: 23px; }
+
+.about-arrow {
+  margin-left: -13px; }
+  @media screen and (min-width: 900px) {
+    .about-arrow {
+      margin-left: 2px; } }
+
+/* -------------------------------- *\
+
     # Insights Page #
 
 \* -------------------------------- */

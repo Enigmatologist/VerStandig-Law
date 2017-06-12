@@ -1155,6 +1155,38 @@ hr {
 
 /* -------------------------------- *\
 
+    # About Page #
+
+\* -------------------------------- */
+
+#about-hero {
+  padding: 35px 0 50px;
+  background: #373634 url("../../images/about-page/about-hero-1200-1x.jpg");
+  background-size: cover;
+  background-position: 54%;
+  min-height: 572px;
+
+  @include at-query(1500px){
+    background: #373634 url("../../images/about-page/about-hero-1600-1x.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+} 
+
+.about-area {
+  margin-top: 23px;
+}
+
+.about-arrow {
+  margin-left: -13px;
+  
+  @include at-query(900px){
+    margin-left: 2px;
+  }
+}
+
+/* -------------------------------- *\
+
     # Insights Page #
 
 \* -------------------------------- */
