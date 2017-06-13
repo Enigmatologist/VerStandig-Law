@@ -94,6 +94,15 @@ hr {
   max-width: 848px;
 }
 
+.container7 {
+  margin: 0 auto;
+  max-width: 415px;
+  
+  @include at-query($two) {
+    max-width: 804px
+  }
+}
+
 .logo {
   text-align: center;
 
@@ -206,6 +215,7 @@ hr {
 
 .heading-line {
   width: 65px;
+  margin: -21px auto 46px;
 }
 
 .specialty_content {
@@ -1183,6 +1193,14 @@ hr {
   @include at-query(900px){
     margin-left: 2px;
   }
+}
+
+.heading-line-3 {
+  margin: -16px auto 40px;
+}
+
+.about-phrase {
+  margin: 0 auto;
 }
 
 /* -------------------------------- *\
