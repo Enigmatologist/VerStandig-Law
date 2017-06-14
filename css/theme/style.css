@@ -3258,6 +3258,17 @@ position: relative; */
 .about-phrase {
   margin: 0 auto; }
 
+.about-box {
+  max-width: 294px;
+  margin: 20px auto;
+  background: #F5F5F5;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px 10px 40px; }
+
+.about-photo {
+  margin: 0 auto; }
+
 .center-always {
   margin: 0 auto; }
 
