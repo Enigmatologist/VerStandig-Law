@@ -84,10 +84,10 @@ $breakpoints: (
     'zero' '(min-width: 600px)',
     'one' '(min-width: 700px)',
     'two' '(min-width: 840px)',
-    'middle' '(min-width: 950px)',
     'three' '(min-width: 1000px)',
     'four' '(min-width: 1100px)',
-    'five' '(min-width: 1175px)'
+    'five' '(min-width: 1175px)',
+    'six' '(min-width: 1200px)'
 )!default;
 
 
@@ -101,9 +101,9 @@ $breakpoints: (
  * Push and pull shall only be used if `$push` and/or `$pull` and `$responsive`
  * have been set to ‘true’.
  */
-$breakpoint-has-widths: ('zero', 'one', 'two', 'middle', 'three', 'four', 'five')!default;
-$breakpoint-has-push:   ('zero', 'one', 'two', 'middle', 'three', 'four', 'five')!default;
-$breakpoint-has-pull:   ('zero', 'one', 'two', 'middle', 'three', 'four', 'five')!default;
+$breakpoint-has-widths: ('zero', 'one', 'two', 'three', 'four', 'five', 'six')!default;
+$breakpoint-has-push:   ('zero', 'one', 'two', 'three', 'four', 'five', 'six')!default;
+$breakpoint-has-pull:   ('zero', 'one', 'two', 'three', 'four', 'five', 'six')!default;
 
 
 /**
