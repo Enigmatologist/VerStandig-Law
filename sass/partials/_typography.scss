@@ -378,8 +378,41 @@ h2, h3, h4 {
   margin: 2px auto 30px;
 }
 
+.position-title {
+  opacity: 0.7;
+  font-style: italic;
+  font-size: em(18px);
+  color: #000000;
+  letter-spacing: 1.07px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.employee-name {
+  font-size: em(20px);
+  color: #000000;
+  letter-spacing: 1.09px;
+  font-weight: 400;
+  text-transform: none;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.contact-clues li {
+  font-size: em(20px);
+  letter-spacing: 0.08px;
+  opacity: 0.7;
+  line-height: 30px;
+}
+
 .read-profile {
-  
+  font-weight: 400;
+  font-size: em(18px);
+  color: #000000;
+  letter-spacing: 3.08px;
+  text-transform: uppercase;
+  margin-top: 39px;
+  margin-bottom: 0px;
 }
 
 

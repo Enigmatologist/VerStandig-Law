@@ -101,9 +101,9 @@ $breakpoints: (
  * Push and pull shall only be used if `$push` and/or `$pull` and `$responsive`
  * have been set to ‘true’.
  */
-$breakpoint-has-widths: ('zero', 'one', 'two', 'three', 'four', 'five')!default;
-$breakpoint-has-push:   ('zero', 'one', 'two', 'three', 'four', 'five')!default;
-$breakpoint-has-pull:   ('zero', 'one', 'two', 'three', 'four', 'five')!default;
+$breakpoint-has-widths: ('zero', 'one', 'two', 'middle', 'three', 'four', 'five')!default;
+$breakpoint-has-push:   ('zero', 'one', 'two', 'middle', 'three', 'four', 'five')!default;
+$breakpoint-has-pull:   ('zero', 'one', 'two', 'middle', 'three', 'four', 'five')!default;
 
 
 /**

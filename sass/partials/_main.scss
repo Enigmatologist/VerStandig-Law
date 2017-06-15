@@ -1223,10 +1223,15 @@ hr {
   box-shadow: 0 0 2px 0 rgba(0,0,0,0.50);
   text-align: center;
   padding: 20px 10px 40px;
+  position: relative;
 }
 
 .about-photo {
   margin: 0 auto;
+
+  @include at-query(900px) {
+    position: relative;
+  }
 }
 
 .center-always {
@@ -1234,15 +1239,26 @@ hr {
 }
 
 .contact-clues {
-  
+  padding: 0px;
+  margin-top: 10px;
+
+  li {
+    list-style-type: none;    
+  }
 }
 
 .right-diamond-box {
-
+  left: 50%;
+  margin-top: 20px;
 }
 
 .right-diamond-arrow {
-
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  padding: 10px;
 }
 
 /* -------------------------------- *\

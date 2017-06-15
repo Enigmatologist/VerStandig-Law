@@ -2289,6 +2289,39 @@ h2, h3, h4 {
 .at-about-page-title {
   margin: 2px auto 30px; }
 
+.position-title {
+  opacity: 0.7;
+  font-style: italic;
+  font-size: 1.125em;
+  color: #000000;
+  letter-spacing: 1.07px;
+  margin-top: 25px;
+  margin-bottom: 0px; }
+
+.employee-name {
+  font-size: 1.25em;
+  color: #000000;
+  letter-spacing: 1.09px;
+  font-weight: 400;
+  text-transform: none;
+  margin-top: 5px;
+  margin-bottom: 15px; }
+
+.contact-clues li {
+  font-size: 1.25em;
+  letter-spacing: 0.08px;
+  opacity: 0.7;
+  line-height: 30px; }
+
+.read-profile {
+  font-weight: 400;
+  font-size: 1.125em;
+  color: #000000;
+  letter-spacing: 3.08px;
+  text-transform: uppercase;
+  margin-top: 39px;
+  margin-bottom: 0px; }
+
 /* ------------------------- *\
 
     # Homepage Test #
@@ -3264,13 +3297,35 @@ position: relative; */
   background: #F5F5F5;
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
   text-align: center;
-  padding: 20px 10px 40px; }
+  padding: 20px 10px 40px;
+  position: relative; }
 
 .about-photo {
   margin: 0 auto; }
+  @media screen and (min-width: 900px) {
+    .about-photo {
+      position: relative; } }
 
 .center-always {
   margin: 0 auto; }
+
+.contact-clues {
+  padding: 0px;
+  margin-top: 10px; }
+  .contact-clues li {
+    list-style-type: none; }
+
+.right-diamond-box {
+  left: 50%;
+  margin-top: 20px; }
+
+.right-diamond-arrow {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  padding: 10px; }
 
 /* -------------------------------- *\
 
