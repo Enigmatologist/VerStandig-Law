@@ -1274,6 +1274,105 @@ textarea {
 
   .five--eleven-twelfths {
     width: 91.666%; } }
+@media only screen and (min-width: 1200px) {
+  /**
+   * Whole
+   */
+  .six--one-whole {
+    width: 100%; }
+
+  /**
+   * Halves
+   */
+  .six--one-half, .six--two-quarters, .six--three-sixths, .six--four-eighths, .six--five-tenths, .six--six-twelfths {
+    width: 50%; }
+
+  /**
+   * Thirds
+   */
+  .six--one-third, .six--two-sixths, .six--four-twelfths {
+    width: 33.333%; }
+
+  .six--two-thirds, .six--four-sixths, .six--eight-twelfths {
+    width: 66.666%; }
+
+  /**
+   * Quarters
+   */
+  .six--one-quarter, .six--two-eighths, .six--three-twelfths {
+    width: 25%; }
+
+  .six--three-quarters, .six--six-eighths, .six--nine-twelfths {
+    width: 75%; }
+
+  /**
+   * Fifths
+   */
+  .six--one-fifth, .six--two-tenths {
+    width: 20%; }
+
+  .six--two-fifths, .six--four-tenths {
+    width: 40%; }
+
+  .six--three-fifths, .six--six-tenths {
+    width: 60%; }
+
+  .six--four-fifths, .six--eight-tenths {
+    width: 80%; }
+
+  /**
+   * Sixths
+   */
+  .six--one-sixth, .six--two-twelfths {
+    width: 16.666%; }
+
+  .six--five-sixths, .six--ten-twelfths {
+    width: 83.333%; }
+
+  /**
+   * Eighths
+   */
+  .six--one-eighth {
+    width: 12.5%; }
+
+  .six--three-eighths {
+    width: 37.5%; }
+
+  .six--five-eighths {
+    width: 62.5%; }
+
+  .six--seven-eighths {
+    width: 87.5%; }
+
+  /**
+   * Tenths
+   */
+  .six--one-tenth {
+    width: 10%; }
+
+  .six--three-tenths {
+    width: 30%; }
+
+  .six--seven-tenths {
+    width: 70%; }
+
+  .six--nine-tenths {
+    width: 90%; }
+
+  /**
+   * Twelfths
+   */
+  .six--one-twelfth {
+    width: 8.333%; }
+
+  .six--five-twelfths {
+    width: 41.666%; }
+
+  .six--seven-twelfths {
+    width: 58.333%; }
+
+  .six--eleven-twelfths {
+    width: 91.666%; } }
 /*------------------------------------*\
     $PUSH
 \*------------------------------------*/
@@ -1979,6 +2078,105 @@ textarea {
 
   .push--five--eleven-twelfths {
     left: 91.666%; } }
+@media only screen and (min-width: 1200px) {
+  /**
+   * Whole
+   */
+  .push--six--one-whole {
+    left: 100%; }
+
+  /**
+   * Halves
+   */
+  .push--six--one-half, .push--six--two-quarters, .push--six--three-sixths, .push--six--four-eighths, .push--six--five-tenths, .push--six--six-twelfths {
+    left: 50%; }
+
+  /**
+   * Thirds
+   */
+  .push--six--one-third, .push--six--two-sixths, .push--six--four-twelfths {
+    left: 33.333%; }
+
+  .push--six--two-thirds, .push--six--four-sixths, .push--six--eight-twelfths {
+    left: 66.666%; }
+
+  /**
+   * Quarters
+   */
+  .push--six--one-quarter, .push--six--two-eighths, .push--six--three-twelfths {
+    left: 25%; }
+
+  .push--six--three-quarters, .push--six--six-eighths, .push--six--nine-twelfths {
+    left: 75%; }
+
+  /**
+   * Fifths
+   */
+  .push--six--one-fifth, .push--six--two-tenths {
+    left: 20%; }
+
+  .push--six--two-fifths, .push--six--four-tenths {
+    left: 40%; }
+
+  .push--six--three-fifths, .push--six--six-tenths {
+    left: 60%; }
+
+  .push--six--four-fifths, .push--six--eight-tenths {
+    left: 80%; }
+
+  /**
+   * Sixths
+   */
+  .push--six--one-sixth, .push--six--two-twelfths {
+    left: 16.666%; }
+
+  .push--six--five-sixths, .push--six--ten-twelfths {
+    left: 83.333%; }
+
+  /**
+   * Eighths
+   */
+  .push--six--one-eighth {
+    left: 12.5%; }
+
+  .push--six--three-eighths {
+    left: 37.5%; }
+
+  .push--six--five-eighths {
+    left: 62.5%; }
+
+  .push--six--seven-eighths {
+    left: 87.5%; }
+
+  /**
+   * Tenths
+   */
+  .push--six--one-tenth {
+    left: 10%; }
+
+  .push--six--three-tenths {
+    left: 30%; }
+
+  .push--six--seven-tenths {
+    left: 70%; }
+
+  .push--six--nine-tenths {
+    left: 90%; }
+
+  /**
+   * Twelfths
+   */
+  .push--six--one-twelfth {
+    left: 8.333%; }
+
+  .push--six--five-twelfths {
+    left: 41.666%; }
+
+  .push--six--seven-twelfths {
+    left: 58.333%; }
+
+  .push--six--eleven-twelfths {
+    left: 91.666%; } }
 /*------------------------------------*\
     $PULL
 \*------------------------------------*/
@@ -2402,7 +2600,10 @@ hr {
 .container7 {
   margin: 0 auto;
   max-width: 415px; }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 700px) {
+    .container7 {
+      max-width: 545px; } }
+  @media screen and (min-width: 1000px) {
     .container7 {
       max-width: 804px; } }
 
@@ -3293,7 +3494,7 @@ position: relative; */
 
 .about-box {
   max-width: 294px;
-  margin: 20px auto;
+  margin: 35px auto;
   background: #F5F5F5;
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
   text-align: center;

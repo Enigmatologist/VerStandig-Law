@@ -98,7 +98,11 @@ hr {
   margin: 0 auto;
   max-width: 415px;
   
-  @include at-query($two) {
+  @include at-query($three) {
+    max-width: 545px;
+  }
+
+  @include at-query($four) {
     max-width: 804px
   }
 }
@@ -1218,7 +1222,7 @@ hr {
 
 .about-box {
   max-width: 294px;
-  margin: 20px auto;
+  margin: 35px auto;
   background: #F5F5F5;
   box-shadow: 0 0 2px 0 rgba(0,0,0,0.50);
   text-align: center;
