@@ -368,6 +368,38 @@ h2, h3, h4 {
   }
 }
 
+.post-title, .post-date, .post-content, .read-more-color {
+  color: $colorBlack;
+}
+
+.post-title {
+  font-size: em(30px);
+  letter-spacing: 0.12px;
+  line-height: 33px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.post-date {
+  opacity: 0.8;
+  font-size: em(17px);
+  letter-spacing: 0.14px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.post-content {
+  font-size: em(20px);
+  letter-spacing: 0.16px;
+  line-height: 26px;
+  margin-top: 18px;
+  margin-bottom: 0px;
+}
+
+.read-more-color {
+  font-weight: 400;
+}
+
 /* ------------------------- *\
 
     # About Page #
