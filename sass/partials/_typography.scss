@@ -430,11 +430,15 @@ h2, h3, h4 {
   margin-bottom: 15px;
 }
 
-.contact-clues li {
-  font-size: em(20px);
-  letter-spacing: 0.08px;
-  opacity: 0.7;
-  line-height: 30px;
+.contact-clues {
+  li {
+    font-family: $bodyText;
+    font-size: em(20px);
+    letter-spacing: 0.08px;
+    color: $colorBlack;
+    opacity: 0.7;
+    line-height: 30px;
+  }
 }
 
 .read-profile {

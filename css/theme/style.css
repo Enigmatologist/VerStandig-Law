@@ -2533,8 +2533,10 @@ h2, h3, h4 {
   margin-bottom: 15px; }
 
 .contact-clues li {
+  font-family: "Fanwood Text", Times New Roman, Georgia, serif;
   font-size: 1.25em;
   letter-spacing: 0.08px;
+  color: #000000;
   opacity: 0.7;
   line-height: 30px; }
 
