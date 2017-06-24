@@ -57,7 +57,7 @@ hr {
   margin: 0 auto;
 
   @include at-query($two) {
-    max-width: 680px;
+    max-width: 600px;
   }
 }
 

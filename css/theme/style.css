@@ -2598,7 +2598,7 @@ hr {
   margin: 0 auto; }
   @media screen and (min-width: 600px) {
     .special-container {
-      max-width: 680px; } }
+      max-width: 600px; } }
 
 .container2 {
   margin: 0 auto;
