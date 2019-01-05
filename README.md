@@ -4,6 +4,6 @@ This repository is the keeper to the source code of Maurice VerStandig's law fir
 
 # License
 
-Copyright 2016 Toby T Castro
+Copyright 2019 Toby T Castro
 
 Please do not re-use the design/layout or content contained within.
